@@ -17,15 +17,13 @@ values
 (7, "김나경", "Cadet Blue", "#6799a0"),
 (8, "공유빈", "Misty Rose", "#ffe3e2"),
 (9, "카에데", "Sunglow", "#ffc935"),
+(10, "서다현", "Lavender Rose", "#ff9ad6"),
+(11, "코토네", "Golden Yellow", "#ffde00"),
+(12, "곽연지", "Royal Blue", "#5974ff"),
 
 
 
 
- 2022년 ()
- 2023년 ()
-서다현 2023년 Lavender Rose(#ff9ad6)
-코토네 2023년 Golden Yellow(#ffde00)
-곽연지 2023년 Royal Blue(#5974ff)
 니엔 2023년 Neon Carrot(#ff953f)
 박소현 2023년 Egyptian Blue(#1222b5)
 신위 2023년 Lava Red(#d51313)
