@@ -20,12 +20,12 @@ values
 (10, "서다현", "Lavender Rose", "#ff9ad6"),
 (11, "코토네", "Golden Yellow", "#ffde00"),
 (12, "곽연지", "Royal Blue", "#5974ff"),
+(13, "니엔", "Neon Carrot", "#ff953f"),
+(14, "박소현", "Egyptian Blue", "#1222b5"),
 
 
 
 
-니엔 2023년 Neon Carrot(#ff953f)
-박소현 2023년 Egyptian Blue(#1222b5)
 신위 2023년 Lava Red(#d51313)
 마유 2023년 Salmon (#fe8e76)
 린 2023년 Violet Blue(#ac62b7)
