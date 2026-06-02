@@ -15,12 +15,14 @@ values
 (5, "김유연", "Razzmatazz", "#db0c74"),
 (6, "김수민", "Mauvelous", "#fc83a4"),
 (7, "김나경", "Cadet Blue", "#6799a0"),
+(8, "공유빈", "Misty Rose", "#ffe3e2"),
+(9, "카에데", "Sunglow", "#ffc935"),
+
 
 
 
  2022년 ()
-공유빈 2022년 Misty Rose(#ffe3e2)
-카에데 2023년 Sunglow(#ffc935)
+ 2023년 ()
 서다현 2023년 Lavender Rose(#ff9ad6)
 코토네 2023년 Golden Yellow(#ffde00)
 곽연지 2023년 Royal Blue(#5974ff)
