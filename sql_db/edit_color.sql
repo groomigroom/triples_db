@@ -22,13 +22,13 @@ values
 (12, "곽연지", "Royal Blue", "#5974ff"),
 (13, "니엔", "Neon Carrot", "#ff953f"),
 (14, "박소현", "Egyptian Blue", "#1222b5"),
+(15, "신위", "Lava Red", "#d51313"),
+(16, "마유", "Salmon", "#fe8e76"),
+(17, "린", "Violet Blue", "#ac62b7"),
 
 
 
 
-신위 2023년 Lava Red(#d51313)
-마유 2023년 Salmon (#fe8e76)
-린 2023년 Violet Blue(#ac62b7)
 주빈 2023년Conifer (#b7f54c)
 정하연 2023년 Medium Turquoise(#52d9bb)
 박시온 2023년 French Rose(#ff428a)
