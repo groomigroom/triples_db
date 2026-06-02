@@ -9,12 +9,13 @@ create table color
 insert into color
 values
 (1, "윤서연", "Picton Blue", "#22aeff"),
- 2023년대뷔 ()
-정혜린 2022년 데뷔Electric Violet (#9200ff)
+(2, "정혜린", "Electric Violet", "#9200ff"),
+(3, "이지우", "Lemon", "#fff800"),
+(4, "김채연", "Atlantis", "#98f21d"),
+(5, "김유연", "Razzmatazz", "#db0c74"),
 
-이지우 2023년 대뷔Lemon (#fff800)
-김채연 2023년 Atlantis (#98f21d)
-김유연 2022년Razzmatazz (#db0c74)
+
+ 2022년 ()
 김수민 2023년 Mauvelous(#fc83a4)
 김나경 2022년 Cadet Blue(#6799a0)
 공유빈 2022년 Misty Rose(#ffe3e2)
