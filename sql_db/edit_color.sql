@@ -1,9 +1,15 @@
 create table color
 (
   s_id integer primary key,
-  color varchar(50)
+  s_name varchar(50),
+  color_name varchar(50),
+  color_code varchar(50)
 );
-윤서연 2023년대뷔Picton Blue (#22aeff)
+
+insert into color
+values
+(1, "윤서연", "Picton Blue", "#22aeff"),
+ 2023년대뷔 ()
 정혜린 2022년 데뷔Electric Violet (#9200ff)
 
 이지우 2023년 대뷔Lemon (#fff800)
