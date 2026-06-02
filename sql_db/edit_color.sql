@@ -26,12 +26,9 @@ values
 (16, "마유", "Salmon", "#fe8e76"),
 (17, "린", "Violet Blue", "#ac62b7"),
 (18, "주빈", "Conifer", "#b7f54c"),
-
-
-
-정하연 2023년 Medium Turquoise(#52d9bb)
-박시온 2023년 French Rose(#ff428a)
-김채원 2024년 Wisteria(#c7a3e0)
-설린 2024년 Bay Leaf(#7bba8d)
-서아 2024년 Pattens Blue(#cff3ff)
-지연 2024년 Apricot (#ffab62)
+(19, "정하연", "Medium Turquoise", "#52d9bb"),
+(20, "박시온", "French Rose", "#ff428a"),
+(21, "김채원", "Wisteria", "#c7a3e0"),
+(22, "설린", "Bay Leaf", "#7bba8d"),
+(23, "서아", "Pattens Blue", "#cff3ff"),
+(24, "지연", "Apricot", "#ffab62");
