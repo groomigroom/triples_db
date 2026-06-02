@@ -13,11 +13,12 @@ values
 (3, "이지우", "Lemon", "#fff800"),
 (4, "김채연", "Atlantis", "#98f21d"),
 (5, "김유연", "Razzmatazz", "#db0c74"),
+(6, "김수민", "Mauvelous", "#fc83a4"),
+(7, "김나경", "Cadet Blue", "#6799a0"),
+
 
 
  2022년 ()
-김수민 2023년 Mauvelous(#fc83a4)
-김나경 2022년 Cadet Blue(#6799a0)
 공유빈 2022년 Misty Rose(#ffe3e2)
 카에데 2023년 Sunglow(#ffc935)
 서다현 2023년 Lavender Rose(#ff9ad6)
