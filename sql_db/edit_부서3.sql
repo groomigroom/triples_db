@@ -1,4 +1,4 @@
-create table 부서1
+create table 부서3
 (
     b_sebu integer ,
     s_id integer primary key,
