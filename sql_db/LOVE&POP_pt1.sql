@@ -7,4 +7,6 @@ create table love_and_pop_pt1
   youtube_like integer
 );
 
-
+insert into love_and_pop_pt1
+values
+("Sad Girls Schemin", 1, ?, 526, ),
