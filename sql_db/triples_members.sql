@@ -6,7 +6,7 @@ create table triples_members
     birthy year
 );
 
-insert into triples
+insert into triples_members
 values
 (1, "윤서연", "대한민국", 2003),
 (2, "정혜린", "대한민국", 2007),
