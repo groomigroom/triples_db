@@ -22,6 +22,30 @@ three_btn.addEventListener("click", () => {
     three_table.classList.toggle("on");
 });
 
+let four_btn = document.querySelector(".four_btn");
+let four_table = document.querySelector(".four_table");
+
+four_btn.addEventListener("click", () => {
+    four_btn.classList.toggle("on");
+    four_table.classList.toggle("on");
+});
+
+let five_btn = document.querySelector(".five_btn");
+let five_table = document.querySelector(".five_table");
+
+five_btn.addEventListener("click", () => {
+    five_btn.classList.toggle("on");
+    five_table.classList.toggle("on");
+});
+
+let six_btn = document.querySelector(".six_btn");
+let six_table = document.querySelector(".six_table");
+
+six_btn.addEventListener("click", () => {
+    six_btn.classList.toggle("on");
+    six_table.classList.toggle("on");
+});
+
 /*
 html<!-- data-target 속성에 제어할 테이블의 클래스명을 적어줍니다 -->
 <button class="toggle_btn" data-target=".one_table">버튼 1</button>
