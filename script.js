@@ -14,6 +14,14 @@ two_btn.addEventListener("click", () => {
     two_table.classList.toggle("on");
 });
 
+let three_btn = document.querySelector(".three_btn");
+let three_table = document.querySelector(".three_table");
+
+three_btn.addEventListener("click", () => {
+    three_btn.classList.toggle("on");
+    three_table.classList.toggle("on");
+});
+
 /*
 html<!-- data-target 속성에 제어할 테이블의 클래스명을 적어줍니다 -->
 <button class="toggle_btn" data-target=".one_table">버튼 1</button>
