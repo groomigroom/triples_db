@@ -106,6 +106,19 @@ select nation, avg(birthy)
 from triples_members
 group by nation;
 
+/*
+출력값
++--------------+-------------+
+| nation       | avg(birthy) |
++--------------+-------------+
+| 대한민국     |   2005.2941 |
+| 일본         |   2004.2500 |
+| 대만         |   2003.0000 |
+| 중국         |   2002.0000 |
+| 태국         |   2006.0000 |
++--------------+-------------+
+*/
+
 select avg(birthy)
 from triples_members
 where s_id >= 15;
