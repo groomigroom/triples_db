@@ -250,14 +250,6 @@ on a.s_id = b.s_id;
 
 --------------------########
 
- SELECT a.dept_no, a.dept_name,
-      ( SELECT b.emp_no
-          FROM dept_manager b
-         WHERE a.dept_no = b.dept_no
-           AND SYSDATE() BETWEEN b.from_date AND b.to_date
-      ) emp_no
-  FROM departments a
- ORDER BY 1;
 
 
 SELECT b.dept_no, b.emp_no, c.first_name, c.last_name
