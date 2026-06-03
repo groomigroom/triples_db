@@ -177,6 +177,38 @@ where a.s_id = b.s_id
 )  unit_name
 from triples_members a;
 
+/*
+출력값
++------+-----------+----------------------------------+
+| s_id | name_bar  | unit_name                        |
++------+-----------+----------------------------------+
+|    1 | 윤서연    | 윤서연 / +(KR)ystal Eyes         |
+|    2 | 정혜린    | 정혜린 / Acid Angel from Asia    |
+|    3 | 이지우    | 이지우 / +(KR)ystal Eyes         |
+|    4 | 김채연    | 김채연 / +(KR)ystal Eyes         |
+|    5 | 김유연    | 김유연 / Acid Angel from Asia    |
+|    6 | 김수민    | 김수민 / +(KR)ystal Eyes         |
+|    7 | 김나경    | 김나경 / Acid Angel from Asia    |
+|    8 | 공유빈    | 공유빈 / Acid Angel from Asia    |
+|    9 | 카에데    | 카에데 / LOVElution              |
+|   10 | 서다현    | 서다현 / LOVElution              |
+|   11 | 코토네    | 코토네 / EVOLution               |
+|   12 | 곽연지    | 곽연지 / EVOLution               |
+|   13 | 니엔      | 니엔 / LOVElution                |
+|   14 | 박소현    | 박소현 / LOVElution              |
+|   15 | 신위      | 신위 / LOVElution                |
+|   16 | 마유      | 마유 / EVOLution                 |
+|   17 | 린        | 린 / NXT                         |
+|   18 | 주빈      | 주빈 / NXT                       |
+|   19 | 정하연    | 정하연 / NXT                     |
+|   20 | 박시온    | 박시온 / NXT                     |
+|   21 | 김채원    | 김채원 / Glow                    |
+|   22 | 설린      | 설린 / Glow                      |
+|   23 | 서아      | 서아 / Glow                      |
+|   24 | 지연      | 지연 / Glow                      |
++------+-----------+----------------------------------+
+*/
+
 --------------------########
 
 SELECT a.name, a.district, a.population, a.countrycode, 
