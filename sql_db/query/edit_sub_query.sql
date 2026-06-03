@@ -88,16 +88,14 @@ from triples_members a;
 
 
 
+select a.s_id, a.name_bar, 
+(select concat(b.name_bar, " / ", b.unit)
+from triples_start_unit b
+where a.s_id = b.s_id
+)  unit_name
+from triples_members a;
 
 --------------------########
-
-SELECT a.name, a.district, a.population, a.countrycode, 
-       ( SELECT concat(b.name, ' / ', b.continent)
-           FROM country b
-          WHERE a.countrycode = b.code 
-       ) countryname
-FROM city a;
--- 이러면 됨.
 
 SELECT a.name, a.district, a.population, a.countrycode, 
        ( SELECT b.name
