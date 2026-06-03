@@ -211,12 +211,7 @@ from triples_members a;
 
 --------------------########
 
-SELECT a.name, a.district, a.population, a.countrycode, 
-       ( SELECT b.name
-           FROM country b
-       ) countryname
-FROM city a;
--- 조건이 없어서, 여러 row값이 겹쳐버림.
+
 
 스칼라 서브쿼리는 1행 1열이다.
 
