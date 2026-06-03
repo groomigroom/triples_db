@@ -209,19 +209,46 @@ from triples_members a;
 +------+-----------+----------------------------------+
 */
 
+
+
+select a.s_id, a.name_bar, a.nation, b.unit
+from triples_members a
+inner join triples_start_unit b
+on a.s_id = b.s_id;
+
+/*
+출력값
++------+-----------+--------------+----------------------+
+| s_id | name_bar  | nation       | unit                 |
++------+-----------+--------------+----------------------+
+|    1 | 윤서연    | 대한민국     | +(KR)ystal Eyes      |
+|    2 | 정혜린    | 대한민국     | Acid Angel from Asia |
+|    3 | 이지우    | 대한민국     | +(KR)ystal Eyes      |
+|    4 | 김채연    | 대한민국     | +(KR)ystal Eyes      |
+|    5 | 김유연    | 대한민국     | Acid Angel from Asia |
+|    6 | 김수민    | 대한민국     | +(KR)ystal Eyes      |
+|    7 | 김나경    | 대한민국     | Acid Angel from Asia |
+|    8 | 공유빈    | 대한민국     | Acid Angel from Asia |
+|    9 | 카에데    | 일본         | LOVElution           |
+|   10 | 서다현    | 대한민국     | LOVElution           |
+|   11 | 코토네    | 일본         | EVOLution            |
+|   12 | 곽연지    | 대한민국     | EVOLution            |
+|   13 | 니엔      | 대만         | LOVElution           |
+|   14 | 박소현    | 대한민국     | LOVElution           |
+|   15 | 신위      | 중국         | LOVElution           |
+|   16 | 마유      | 일본         | EVOLution            |
+|   17 | 린        | 일본         | NXT                  |
+|   18 | 주빈      | 대한민국     | NXT                  |
+|   19 | 정하연    | 대한민국     | NXT                  |
+|   20 | 박시온    | 대한민국     | NXT                  |
+|   21 | 김채원    | 대한민국     | Glow                 |
+|   22 | 설린      | 태국         | Glow                 |
+|   23 | 서아      | 대한민국     | Glow                 |
+|   24 | 지연      | 대한민국     | Glow                 |
++------+-----------+--------------+----------------------+
+*/
+
 --------------------########
-
-
-
-스칼라 서브쿼리는 1행 1열이다.
-
-SELECT a.dept_no, a.dept_name, b.emp_no
-  FROM departments a
- INNER JOIN dept_manager b
-    ON a.dept_no = b.dept_no
- WHERE SYSDATE() BETWEEN b.from_date AND b.to_date;
-
-
 
  SELECT a.dept_no, a.dept_name,
       ( SELECT b.emp_no
