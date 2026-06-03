@@ -123,6 +123,15 @@ select avg(birthy)
 from triples_members
 where s_id >= 15;
 
+/*
+출력값
++-------------+
+| avg(birthy) |
++-------------+
+|   2005.9000 |
++-------------+
+*/
+
 select a.s_id, a.name_bar,
 (select b.unit
 from triples_start_unit b
