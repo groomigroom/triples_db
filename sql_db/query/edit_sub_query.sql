@@ -86,15 +86,10 @@ from triples_start_unit b
 where a.s_id = b.s_id) start_unit
 from triples_members a;
 
---------------------########
 
-SELECT a.name, a.district, a.population, a.countrycode, 
-       ( SELECT b.name, b.continent -- 둘 중에 하나 지우기
-           FROM country b
-          WHERE a.countrycode = b.code 
-       ) countryname
-FROM city a;
--- 이거는 스칼라 서브쿼리에서 2개 이상의 값을 선택해서 오류 떠버림.
+
+
+--------------------########
 
 SELECT a.name, a.district, a.population, a.countrycode, 
        ( SELECT concat(b.name, ' / ', b.continent)
