@@ -252,12 +252,22 @@ on a.s_id = b.s_id;
 
 
 
-SELECT b.dept_no, b.emp_no, c.first_name, c.last_name
-  FROM dept_manager b, 
-       employees c
- WHERE b.emp_no = c.emp_no
-   AND SYSDATE() BETWEEN b.from_date AND b.to_date;
--- 파생 테이블 from 다음에 나옴.
+select a.s_id, a.nation
+from triples_members a, triples_start_unit b
+where a.s_id = b.s_id
+and a.s_id between 3 and 7;
+
+/*
++------+--------------+
+| s_id | nation       |
++------+--------------+
+|    3 | 대한민국     |
+|    4 | 대한민국     |
+|    5 | 대한민국     |
+|    6 | 대한민국     |
+|    7 | 대한민국     |
++------+--------------+
+*/
 
 
 
