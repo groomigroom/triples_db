@@ -16,7 +16,7 @@ create table 부서1
     screen_num integer,
     listen_country varchar(50),
     countries varchar(50),
-    composition varchar(50),
+    composition float,
     song_type varchar(50),
     genre varchar(50),
     direc_time integer
@@ -31,4 +31,4 @@ values
 (1, 5, 25, 2022, 3, "Sleek", "2026-05-27", 6.78, 33.223, 13, 32, 62, 22, 15, "sweden", "korea", "작곡", "곡타입", "장르", 곡시간분으로),
 (1, 6, 32, 2023, 7, "I Like That", "2026-05-26", 5.56, 22.323, 10, 17, 12, 16, 16, "swiss", "korea", "작곡", "곡타입", "장르", 곡시간분으로),
 (1, 7, 33, 2022, 5, "Me Myself Mode", "2026-05-25", 3.43, 45.565, 12, 14, 14, 15, 18, "england", "korea", "작곡", "곡타입", "장르", 곡시간분으로),
-(1, 8, 43, 2022, 6, "Tokimetique", "2026-05-24", 1.11, 66.565, 28, 27, 26, 22, 10, "korea", "korea", "작곡", "은근히 신나는 곡", "dance", "00:02:45");
+(1, 8, 43, 2022, 6, "Tokimetique", "2026-05-24", 1.11, 66.565, 28, 27, 26, 22, 10, "korea", "korea", 0.3, "은근히 신나는 곡", "dance", "00:02:45");
