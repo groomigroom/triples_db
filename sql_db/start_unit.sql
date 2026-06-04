@@ -1,11 +1,11 @@
-create table triples_start_unit
+create table start_unit
 (
     s_id integer primary key,
     name_bar varchar(50),
     unit varchar(50)
 );
 
-insert into triples_start_unit
+insert into start_unit
 values
 (1, "윤서연", "+(KR)ystal Eyes"),
 (2, "정혜린", "Acid Angel from Asia"),
