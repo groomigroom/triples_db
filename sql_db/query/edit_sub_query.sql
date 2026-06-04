@@ -248,7 +248,7 @@ on a.s_id = b.s_id;
 +------+-----------+--------------+----------------------+
 */
 
---------------------########
+
 
 
 
@@ -283,6 +283,14 @@ SELECT a.dept_no, a.dept_name,
       ) mng
  WHERE a.dept_no = mng.dept_no
  ORDER BY 1;
+
+select a.s_id, a.name_bar, b.unit
+from triples_members a,
+(select ) mmm
+
+
+
+--------------------########
 
 
 SELECT a.dept_no, a.dept_name,
