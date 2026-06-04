@@ -8,7 +8,7 @@ create table 부서1
     song_name varchar(50),
     song_release datetime,
     song_amt double,
-    song_rate?? double,
+    song_rate double,
     listening_num int,
     showing_num int,
     showing_count integer,
@@ -24,8 +24,8 @@ create table 부서1
 
 insert into 부서1
 values
-(1, 1, 22, 2023, 2, "Sad Girls Schemin", "2026-06-01", 3.33, 33.333, 27, 28, 22, 41, 22, "korea", "korea", "작곡", "곡타입", "장르", "00:02:42"),
-(1, 2, 27, 2022, 2, "Peer", "2026-05-30", 2.23, 21.432, 15, 24, 27, 32, 12, "usa", "korea", "작곡", "곡타입", "장르", "00:01:01"),
+(1, 1, 22, 2023, 2, "Sad Girls Schemin", "2026-06-01", 3.33, 33.333, 27, 28, 22, 41, 22, "korea", "korea", 0.5, "절제된 곡", "dance", "00:02:42"),
+(1, 2, 27, 2022, 2, "Peer", "2026-05-30", 2.23, 21.432, 15, 24, 27, 32, 12, "usa", "korea", 0.2, "감성적인 곡", "dance", "00:01:01"),
 (1, 3, 23, 2023, 5, "Baby Flower", "2026-05-29", 4.55, 44.224, 23, 42, 44, 55, 55, "korea", "korea", 0.4, "강렬한 곡", "rock", "00:03:08"),
 (1, 4, 26, 2023, 4, "Type of Girl", "2026-05-28", 5.57, 45.443, 15, 17, 15, 42, 43, "england", "korea", 0.6, "발랄한 곡", "dance", "00:03:09"),
 (1, 5, 25, 2022, 3, "Sleek", "2026-05-27", 6.78, 33.223, 13, 32, 62, 22, 15, "sweden", "korea", 0.2, "절제된 곡", "dance", "00:02:31"),
