@@ -46,6 +46,14 @@ six_btn.addEventListener("click", () => {
     six_table.classList.toggle("on");
 });
 
+let seven_btn = document.querySelector(".seven_btn");
+let seven_table = document.querySelector(".seven_table");
+
+seven_btn.addEventListener("click", () => {
+    seven_btn.classList.toggle("on");
+    seven_table.classList.toggle("on");
+});
+
 /*
 html<!-- data-target 속성에 제어할 테이블의 클래스명을 적어줍니다 -->
 <button class="toggle_btn" data-target=".one_table">버튼 1</button>
