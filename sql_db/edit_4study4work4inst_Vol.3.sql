@@ -20,6 +20,6 @@ values
 ("Love2Love (Inst.)", 9, "00:03:10", 96, 36), 
 ("Fly Up (Inst.)", 10, "00:02:40", 98, 40), 
 ("Cameo Love (Inst.)", 11, "00:02:35", 116, 67), 
-("Bubble Gum Girl (Inst.)", 12, "00:02:48", 91, 31), m
-("Q&A (Inst.)", 13, "00:03:26", 95, ),
-("Christmas Alone (Inst.)", 14, "00:02:51", 98, );
+("Bubble Gum Girl (Inst.)", 12, "00:02:48", 91, 31),
+("Q&A (Inst.)", 13, "00:03:26", 95, 37),
+("Christmas Alone (Inst.)", 14, "00:02:51", 98, 29);
