@@ -8,7 +8,7 @@ create table 부서1
     song_name varchar(50),
     song_release datetime,
     song_amt double,
-    song_rate double,
+    song_rate double, -- 평가 점수
     listening_num int,
     showing_num int,
     showing_count integer,
