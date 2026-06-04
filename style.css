@@ -68,6 +68,14 @@
     font-family: 'Pretendard';
 }
 
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #333;
+}
+
 .head_btn {
     padding: 10px;
     display: inline-block;
