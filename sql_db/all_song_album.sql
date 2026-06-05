@@ -59,5 +59,6 @@ values
 (10, "Love2Love", "<ASSEMBLE25>"),
 (1, "Girls Never Die (Japanese Version)", "Girls Never Die (Japanese Version)"),
 (1, "Rising (Japanese Version)", "Rising (Japanese Version)"),
+(4, "PainDrop (by 서연, 지우, 유빈, 소현)", "선의의 경쟁 OST"),
 (1, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))"),
 (2, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)"),
