@@ -8,12 +8,11 @@ create table all_song_album
 insert into all_song_album
 values
 (1, "Sad Girls Schemin", "love_and_pop_pt1"),
-(1, "Sad Girls Schemin", "love_and_pop_pt1"),
+(2, "Peer", "love_and_pop_pt1"),
+(3, "Baby Flower", "love_and_pop_pt1"),
+(4, "Type of Girl", "love_and_pop_pt1"),
+(5, "Sleek", "love_and_pop_pt1"),
+(6, "I Like That", "love_and_pop_pt1"),
+(7, "Me Myself Mode", "love_and_pop_pt1"),
 
 
-("Peer", 2, "00:01:01", 418, 109),
-("Baby Flower", 3, "00:03:08", 1780, 31000),
-("Type of Girl", 4, "00:03:09", 442, 159),
-("Sleek", 5, "00:02:31", 458, 151),
-("I Like That", 6, "00:02:16", 428, 142),
-("Me Myself Mode", 7, "00:02:19", 463, 147);
