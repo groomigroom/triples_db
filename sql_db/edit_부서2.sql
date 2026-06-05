@@ -1,6 +1,6 @@
 create table 부서2
 (
-    b_sebu integer ,
+    b_sebu integer,
     s_id integer primary key,
     seq_no integer,
     start_year integer,
@@ -8,18 +8,17 @@ create table 부서2
     song_name varchar(50),
     song_release datetime,
     song_amt double,
-    song_rate?? double,
-    listening_num int,
+    song_rate double, -- 평가 점수
     showing_num int,
     showing_count integer,
     listening_num int,
     screen_num integer,
     listen_country varchar(50),
     countries varchar(50),
-    composition varchar(50),
+    composition float,
     song_type varchar(50),
     genre varchar(50),
-    direc_time integer
+    direc_time TIME -- INTEGER에서 TIME으로 수정
 );
 
 insert into 부서1
