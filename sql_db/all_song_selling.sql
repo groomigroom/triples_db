@@ -59,3 +59,5 @@ values
 ("Love2Love", "<ASSEMBLE25>", 600),
 ("Girls Never Die (Japanese Version)", "Girls Never Die (Japanese Version)", 1222),
 ("Rising (Japanese Version)", "Rising (Japanese Version)", 5554),
+("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))", 222),
+("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)", 45),
