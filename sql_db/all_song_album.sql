@@ -7,6 +7,7 @@ create table all_song_album
 
 insert into all_song_album
 values
+(1, "Baby Flower Japanese Version", "Baby Flower Japanese Version"),
 (1, "Sad Girls Schemin", "love_and_pop_pt1"),
 (2, "Peer", "love_and_pop_pt1"),
 (3, "Baby Flower", "love_and_pop_pt1"),
