@@ -9,8 +9,4 @@ create table tripleS_hatch!_SecretHimitsuBimil
 
 insert into tripleS_hatch!_SecretHimitsuBimil
 values
-title varchar(50),
-  track_num integer,
-  song_len time,
-  melon_like integer,
-  youtube_like integer
+("Password", 1, "00:00:00", 400, youtube_like integer);
