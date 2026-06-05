@@ -9,4 +9,7 @@ create table tripleS_hatch!_SecretHimitsuBimil
 
 insert into tripleS_hatch!_SecretHimitsuBimil
 values
-("Password", 1, "00:00:00", 400, youtube_like integer);
+("Password", 1, "00:00:00", 400, youtube_like integer),
+("Headphones", 2, "00:00:00", 255, youtube_like integer),
+("Headphones", 2, "00:00:00", 255, youtube_like integer),
+  ;
