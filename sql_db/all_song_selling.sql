@@ -14,3 +14,6 @@ values
 ("Sleek", "love_and_pop_pt1", 66),
 ("I Like That", "love_and_pop_pt1", 44),
 ("Me Myself Mode", "love_and_pop_pt1", 77),
+("Tokimetique", "Tokimetique", 33),
+("Tokimetique -Shin Sakiura Remix-", "Tokimetique", 22),
+("Tokimetique TV Edit", "Tokimetique", 44),
