@@ -116,3 +116,19 @@ tripleS (트리플에스)
 tripleS hatch! <Untitled>
 1
 Untitled
+
+
+Polaroid
+
+
+1
+ Polaroid (by 나경, 마유, 시온, 채원)
+tripleS (트리플에스)
+좋아요 941
+
+
+
+
+
+2
+Polaroid (by 나경, 마유, 시온, 채원) (Inst.)
