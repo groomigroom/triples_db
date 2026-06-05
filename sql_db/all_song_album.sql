@@ -132,3 +132,91 @@ tripleS (트리플에스)
 
 2
 Polaroid (by 나경, 마유, 시온, 채원) (Inst.)
+
+
+Visionary Vision <Performante>
+
+
+1
+Visual Virtue
+tripleS (트리플에스)
+좋아요 831
+
+
+
+
+
+2
+ Hit the Floor
+tripleS (트리플에스)
+좋아요 5,422
+
+
+
+
+
+3
+Choom
+tripleS (트리플에스)
+좋아요 1,372
+
+
+
+
+
+4
+Éclair
+tripleS (트리플에스)
+좋아요 1,208
+
+
+
+
+
+5
+연애소설 (Love Soseol)
+tripleS (트리플에스)
+좋아요 1,301
+
+
+
+
+
+6
+Atmosphere (VV Ver.)
+tripleS (트리플에스)
+좋아요 1,097
+
+
+
+
+
+7
+12 Rings
+tripleS (트리플에스)
+좋아요 962
+
+
+
+
+
+8
+Vision
+tripleS (트리플에스)
+좋아요 1,116
+
+
+
+
+
+9
+Bionic Power
+tripleS (트리플에스)
+좋아요 1,027
+
+
+
+
+
+10
+Visionary Vision
