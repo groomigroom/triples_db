@@ -27,11 +27,7 @@ values
 (8, "Friend Zone (Inst.)", "4study4work4inst_Vol.3"),
 (9, "Love2Love (Inst.)", "4study4work4inst_Vol.3"),
 (10, "Fly Up (Inst.)", "4study4work4inst_Vol.3"),
-(11, "Fly Up (Inst.)", "4study4work4inst_Vol.3"),
-
-
- 
-("Cameo Love (Inst.)", 11, "00:02:35", 116, 67), 
-("Bubble Gum Girl (Inst.)", 12, "00:02:48", 91, 31),
-("Q&A (Inst.)", 13, "00:03:26", 95, 37),
-("Christmas Alone (Inst.)", 14, "00:02:51", 98, 29);
+(11, "Cameo Love (Inst.)", "4study4work4inst_Vol.3"),
+(12, "Bubble Gum Girl (Inst.)", "4study4work4inst_Vol.3"),
+(13, "Q&A (Inst.)", "4study4work4inst_Vol.3"),
+(14, "Christmas Alone (Inst.)", "4study4work4inst_Vol.3"),
