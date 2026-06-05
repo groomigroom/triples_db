@@ -72,5 +72,36 @@ values
 (8, "Non Scale (Inst.)", "4study4work4inst Vol.2"),
 (9, "Dimension (Inst.)", "4study4work4inst Vol.2"),
 (10, "내적 댄스 (Inner Dance) (Inst.)", "4study4work4inst Vol.2"),
+(11, "Hit the Floor (Inst.)", "4study4work4inst Vol.2"),
+(12, "Choom (Inst.)", "4study4work4inst Vol.2"),
+(13, "Éclair (Inst.)", "4study4work4inst Vol.2"),
+(14, "연애소설 (Love Soseol) (Inst.)", "4study4work4inst Vol.2"),
+(15, "Atmosphere (VV Ver.) (Inst.)", "4study4work4inst Vol.2"),
+
+
+
+
+
+16
+12 Rings (Inst.)
+tripleS (트리플에스)
+좋아요 202
+
+
+
+
+
+17
+Vision (Inst.)
+tripleS (트리플에스)
+좋아요 217
+
+
+
+
+
+18
+Bionic Power (Inst.)
+tripleS (트리플에스)
 (1, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))"),
 (2, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)"),
