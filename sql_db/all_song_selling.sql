@@ -58,3 +58,4 @@ values
 ("Friend Zone", "<ASSEMBLE25>", 665),
 ("Love2Love", "<ASSEMBLE25>", 600),
 ("Girls Never Die (Japanese Version)", "Girls Never Die (Japanese Version)", 1222),
+("Rising (Japanese Version)", "Rising (Japanese Version)", 5554),
