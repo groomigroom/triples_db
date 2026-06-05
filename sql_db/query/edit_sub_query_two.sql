@@ -133,6 +133,8 @@ b.s_id =c.s_id;
 
 ------------------------------------------------------------------------------------
 
+이건 생각해보기 ---------------------------------->>>>>
+
 SELECT a.dept_no, a.dept_name,
        COUNT(*) cnt, SUM(c.salary) salary, AVG(c.salary) dept_avg
   FROM departments a, 
@@ -145,6 +147,8 @@ SELECT a.dept_no, a.dept_name,
  GROUP BY a.dept_no, a.dept_name
  ORDER BY 1;
 -- 이거는 반드시 파생 테이블을 써야되는 거.
+
+ ---------------------------------->>>>>
 
 
 SELECT AVG(f.salary)
