@@ -46,6 +46,7 @@ values
 ("Untitled", "tripleS_hatch!_SecretHimitsuBimil", 245),
 ("### (hatch! Version)", "tripleS_hatch!_SecretHimitsuBimil", 555),
 ("Password", "tripleS hatch! <Password>", 755),
+("Pink Power", "Pink Power(잔망루피, tripleS (트리플에스))", 14),
 ("@% (Alpha Percent)", "<ASSEMBLE25>", 55),
 ("깨어 (Are You Alive)", "<ASSEMBLE25>", 2244),
 ("추리소설 (Detective Soseol)", "<ASSEMBLE25>", 1255),
