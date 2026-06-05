@@ -44,3 +44,4 @@ values
 (5, "Oshare", "tripleS_hatch!_SecretHimitsuBimil"),
 (6, "Untitled", "tripleS_hatch!_SecretHimitsuBimil"),
 (7, "### (hatch! Version)", "tripleS_hatch!_SecretHimitsuBimil"),
+(1, "Password", "tripleS hatch! <Password>"),
