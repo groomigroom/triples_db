@@ -2,7 +2,7 @@ create table all_song_selling
 (
   title varchar(50),
   album varchar(50),
-  판매(억단위) int
+  판매_억단위 int
 );
 
 insert into all_song_selling
