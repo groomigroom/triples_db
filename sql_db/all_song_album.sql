@@ -176,54 +176,13 @@ values
 (4, "(숨겨 봐봐) Hide & Seek", "+(KR)ystal Eyes <AESTHETIC>"),
 (5, "Deja-Vu", "+(KR)ystal Eyes <AESTHETIC>"),
 (6, "Dimension (KRE Ver.)", "+(KR)ystal Eyes <AESTHETIC>"),
+(1, "Beam", "ASSEMBLE"),
+(2, "Before the Rise", "ASSEMBLE"),
+(3, "Rising", "ASSEMBLE"),
+(4, "Colorful", "ASSEMBLE"),
+(5, "The Baddest", "ASSEMBLE"),
 
 
-
-
-
-ASSEMBLE
-
-
-1
-Beam
-tripleS (트리플에스)
-좋아요 2,753
-
-
-
-
-
-2
-Before the Rise
-tripleS (트리플에스)
-좋아요 1,521
-
-
-
-
-
-3
- Rising
-tripleS (트리플에스)
-좋아요 35,200
-
-
-
-
-
-4
-Colorful
-tripleS (트리플에스)
-좋아요 3,797
-
-
-
-
-
-5
-The Baddest
-tripleS (트리플에스)
-좋아요 2,040
 
 
 
