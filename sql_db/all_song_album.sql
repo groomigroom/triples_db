@@ -145,25 +145,12 @@ values
 (27, "Oui (Inst.)", "4study4work4inst Vol.1"),
 (28, "Enhanced Flower (Inst.)", "4study4work4inst Vol.1"),
 (29, "Just Do It (Inst.)", "4study4work4inst Vol.1"),
+(30, "Door (Inst.)", "4study4work4inst Vol.1"),
+(31, "첫 이별 (Farewell My First) (Inst.)", "4study4work4inst Vol.1"),
 
 
 
 
-
-
-
-30
-Door (Inst.)
-tripleS (트리플에스)
-좋아요 327
-
-
-
-
-
-31
-첫 이별 (Farewell My First) (Inst.)
-tripleS (트리플에스)
 
 
 Aria <Structure Of Sadness>
