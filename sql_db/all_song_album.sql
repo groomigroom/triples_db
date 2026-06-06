@@ -554,6 +554,202 @@ Number 8
 
 
 
+Acid Eyes <Cherry Gene>
+
+1
+ Cherry Gene 'Baddest Mix'
+tripleS (트리플에스)
+좋아요 1,362
+
+
+
+
+
+2
+Cherry Gene 'Hy-Fluid Mix'
+tripleS (트리플에스)
+좋아요 536
+
+
+
+
+
+3
+Cherry Gene 'Testarossa Mix'
+
+
++(KR)ystal Eyes <Touch+>
+
+
+1
+ Touch+
+
+
+
++(KR)ystal Eyes <AESTHETIC>
+
+
+1
+Cherry 100%
+tripleS (트리플에스)
+좋아요 1,189
+
+
+
+
+
+2
+ Cherry Talk
+tripleS (트리플에스)
+좋아요 4,918
+
+
+
+
+
+3
+Touch
+tripleS (트리플에스)
+좋아요 2,401
+
+
+
+
+
+4
+(숨겨 봐봐) Hide & Seek
+tripleS (트리플에스)
+좋아요 1,398
+
+
+
+
+
+5
+Deja-Vu
+tripleS (트리플에스)
+좋아요 1,840
+
+
+
+
+
+6
+Dimension (KRE Ver.)
+
+
+ASSEMBLE
+
+
+1
+Beam
+tripleS (트리플에스)
+좋아요 2,753
+
+
+
+
+
+2
+Before the Rise
+tripleS (트리플에스)
+좋아요 1,521
+
+
+
+
+
+3
+ Rising
+tripleS (트리플에스)
+좋아요 35,200
+
+
+
+
+
+4
+Colorful
+tripleS (트리플에스)
+좋아요 3,797
+
+
+
+
+
+5
+The Baddest
+tripleS (트리플에스)
+좋아요 2,040
+
+
+
+
+
+6
+New Look
+tripleS (트리플에스)
+좋아요 3,072
+
+
+
+
+
+7
+초월 (Chowall)
+
+
+Acid Angel from Asia <ACCESS>
+
+
+
+1
+Access
+tripleS (트리플에스)
+좋아요 1,929
+
+
+
+
+
+2
+ Generation
+tripleS (트리플에스)
+좋아요 41,516
+
+
+
+
+
+3
+Rolex
+tripleS (트리플에스)
+좋아요 3,632
+
+
+
+
+
+4
+찰나 (Charla)
+tripleS (트리플에스)
+좋아요 2,485
+
+
+
+
+
+5
+Dimension (AAA Ver.)
+tripleS (트리플에스)
+좋아요 2,489
+
+
+
+
+
+6
++(82)
   
 alter table all_song_album
 add column so_id int auto_increment primary key;
