@@ -133,22 +133,6 @@ b.s_id =c.s_id;
 
 ------------------------------------------------------------------------------------
 
-이건 생각해보기 ---------------------------------->>>>>
-
-SELECT a.dept_no, a.dept_name,
-       COUNT(*) cnt, SUM(c.salary) salary, AVG(c.salary) dept_avg
-  FROM departments a, 
-       dept_emp b, 
-       salaries c
- WHERE a.dept_no = b.dept_no
-   AND b.emp_no  = c.emp_no
-   AND SYSDATE() BETWEEN b.from_date AND b.to_date
-   AND SYSDATE() BETWEEN c.from_date AND c.to_date
- GROUP BY a.dept_no, a.dept_name
- ORDER BY 1;
--- 이거는 반드시 파생 테이블을 써야되는 거.
-
- ---------------------------------->>>>>
 
 
 SELECT AVG(f.salary)
