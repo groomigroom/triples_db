@@ -118,102 +118,19 @@ values
   
 (1, "Generation (Inst.)", "4study4work4inst Vol.1"),
 (2, "Rolex (Inst.)", "4study4work4inst Vol.1"),
+(3, "찰나 (Charla) (Inst.)", "4study4work4inst Vol.1"),
+(4, "Dimension (AAA Ver.) (Inst.)", "4study4work4inst Vol.1"),
+(5, "Beam (Inst.)", "4study4work4inst Vol.1"),
+(6, "Rising (Inst.)", "4study4work4inst Vol.1"),
+(7, "Colorful (Inst.)", "4study4work4inst Vol.1"),
+(8, "The Baddest (Inst.)", "4study4work4inst Vol.1"),
+(9, "New Look (Inst.)", "4study4work4inst Vol.1"),
+(10, "Cherry Talk (Inst.)", "4study4work4inst Vol.1"),
+(11, "Touch (Inst.)", "4study4work4inst Vol.1"),
+(12, "(숨겨 봐봐) Hide & Seek (Inst.)", "4study4work4inst Vol.1"),
 
 
 
-
-
-
-
-
-
-
-
-3
-찰나 (Charla) (Inst.)
-tripleS (트리플에스)
-좋아요 355
-
-
-
-
-
-4
-Dimension (AAA Ver.) (Inst.)
-tripleS (트리플에스)
-좋아요 352
-
-
-
-
-
-5
-Beam (Inst.)
-tripleS (트리플에스)
-좋아요 351
-
-
-
-
-
-6
- Rising (Inst.)
-tripleS (트리플에스)
-좋아요 553
-
-
-
-
-
-7
-Colorful (Inst.)
-tripleS (트리플에스)
-좋아요 350
-
-
-
-
-
-8
-The Baddest (Inst.)
-tripleS (트리플에스)
-좋아요 339
-
-
-
-
-
-9
-New Look (Inst.)
-tripleS (트리플에스)
-좋아요 355
-
-
-
-
-
-10
-Cherry Talk (Inst.)
-tripleS (트리플에스)
-좋아요 360
-
-
-
-
-
-11
-Touch (Inst.)
-tripleS (트리플에스)
-좋아요 332
-
-
-
-
-
-12
-(숨겨 봐봐) Hide & Seek (Inst.)
-tripleS (트리플에스)
-좋아요 327
 
 
 
