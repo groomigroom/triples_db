@@ -147,26 +147,19 @@ values
 (29, "Just Do It (Inst.)", "4study4work4inst Vol.1"),
 (30, "Door (Inst.)", "4study4work4inst Vol.1"),
 (31, "첫 이별 (Farewell My First) (Inst.)", "4study4work4inst Vol.1"),
+(1, "Door", "Aria <Structure Of Sadness>"),
+(2, "첫 이별 (Farewell My First)", "Aria <Structure Of Sadness>"),
 
 
 
 
-
-
-Aria <Structure Of Sadness>
-
-
-1
- Door
-tripleS (트리플에스)
-좋아요 2,726
 
 
 
 
 
 2
-첫 이별 (Farewell My First)
+
 
 NXT <Just Do It>
 
