@@ -61,3 +61,10 @@ values
 ("Rising (Japanese Version)", "Rising (Japanese Version)", 5554),
 ("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))", 222),
 ("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)", 45),
+
+alter table all_song_selling
+add column so_id int auto_increment primary key;
+
+insert into all_song_selling(so_id)
+values
+(null);
