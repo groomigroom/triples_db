@@ -128,100 +128,16 @@ values
 (10, "Cherry Talk (Inst.)", "4study4work4inst Vol.1"),
 (11, "Touch (Inst.)", "4study4work4inst Vol.1"),
 (12, "(숨겨 봐봐) Hide & Seek (Inst.)", "4study4work4inst Vol.1"),
-
-
-
-
-
-
-
-
-13
-Deja-Vu (Inst.)
-tripleS (트리플에스)
-좋아요 344
-
-
-
-
-
-14
-Dimension (KRE Ver.) (Inst.)
-tripleS (트리플에스)
-좋아요 317
-
-
-
-
-
-15
-Touch+ (Inst.)
-tripleS (트리플에스)
-좋아요 320
-
-
-
-
-
-16
-Girls’ Capitalism (Inst.)
-tripleS (트리플에스)
-좋아요 439
-
-
-
-
-
-17
-복합성 (Complexity) (Inst.)
-tripleS (트리플에스)
-좋아요 337
-
-
-
-
-
-18
-Black Soul Dress (Inst.)
-tripleS (트리플에스)
-좋아요 351
-
-
-
-
-
-19
-Seoul Sonyo Sound (Inst.)
-tripleS (트리플에스)
-좋아요 335
-
-
-
-
-
-20
-Cry Baby (Inst.)
-tripleS (트리플에스)
-좋아요 332
-
-
-
-
-
-21
-Speed Love (Inst.)
-tripleS (트리플에스)
-좋아요 354
-
-
-
-
-
-22
-Invincible (Inst.)
-tripleS (트리플에스)
-좋아요 355
-
+(13, "Deja-Vu (Inst.)", "4study4work4inst Vol.1"),
+(14, "Dimension (KRE Ver.) (Inst.)", "4study4work4inst Vol.1"),
+(15, "Touch+ (Inst.)", "4study4work4inst Vol.1"),
+(16, "Girls’ Capitalism (Inst.)", "4study4work4inst Vol.1"),
+(17, "복합성 (Complexity) (Inst.)", "4study4work4inst Vol.1"),
+(18, "Black Soul Dress (Inst.)", "4study4work4inst Vol.1"),
+(19, "Seoul Sonyo Sound (Inst.)", "4study4work4inst Vol.1"),
+(20, "Cry Baby (Inst.)", "4study4work4inst Vol.1"),
+(21, "Speed Love (Inst.)", "4study4work4inst Vol.1"),
+(22, "Invincible (Inst.)", "4study4work4inst Vol.1"),
 
 
 
