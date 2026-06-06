@@ -181,77 +181,20 @@ values
 (3, "Rising", "ASSEMBLE"),
 (4, "Colorful", "ASSEMBLE"),
 (5, "The Baddest", "ASSEMBLE"),
+(6, "New Look", "ASSEMBLE"),
+(7, "초월 (Chowall)", "ASSEMBLE"),
+(1, "Access", "Acid Angel from Asia <ACCESS>"),
+(2, "Generation", "Acid Angel from Asia <ACCESS>"),
+(3, "Rolex", "Acid Angel from Asia <ACCESS>"),
+(4, "찰나 (Charla)", "Acid Angel from Asia <ACCESS>"),
+(5, "Dimension (AAA Ver.)", "Acid Angel from Asia <ACCESS>"),
+(6, "+(82)", "Acid Angel from Asia <ACCESS>"),
 
 
 
 
 
 
-
-6
-New Look
-tripleS (트리플에스)
-좋아요 3,072
-
-
-
-
-
-7
-초월 (Chowall)
-
-
-Acid Angel from Asia <ACCESS>
-
-
-
-1
-Access
-tripleS (트리플에스)
-좋아요 1,929
-
-
-
-
-
-2
- Generation
-tripleS (트리플에스)
-좋아요 41,516
-
-
-
-
-
-3
-Rolex
-tripleS (트리플에스)
-좋아요 3,632
-
-
-
-
-
-4
-찰나 (Charla)
-tripleS (트리플에스)
-좋아요 2,485
-
-
-
-
-
-5
-Dimension (AAA Ver.)
-tripleS (트리플에스)
-좋아요 2,489
-
-
-
-
-
-6
-+(82)
   
 alter table all_song_album
 add column so_id int auto_increment primary key;
