@@ -103,19 +103,16 @@ values
 (8, "Vision", "Visionary Vision <Performante>"),
 (9, "Bionic Power", "Visionary Vision <Performante>"),
 (10, "Visionary Vision", "Visionary Vision <Performante>"),
+(1, "###", "<###>"),
+(1, "내적 댄스 (Inner Dance)", "Glow <Inner Dance>"),
 
 
-<###>
+
+
 
 
 1
- ###
-
-
-Glow <Inner Dance>
-
-1
- 내적 댄스 (Inner Dance)
+ 
 
 〈ASSEMBLE24〉
 
