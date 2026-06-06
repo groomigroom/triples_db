@@ -393,6 +393,96 @@ tripleS (트리플에스)
 첫 이별 (Farewell My First) (Inst.)
 tripleS (트리플에스)
 
+
+Aria <Structure Of Sadness>
+
+
+1
+ Door
+tripleS (트리플에스)
+좋아요 2,726
+
+
+
+
+
+2
+첫 이별 (Farewell My First)
+
+NXT <Just Do It>
+
+1
+ Just Do It
+
+
+EVOLution <⟡>
+
+1
+＆#10209;
+tripleS (트리플에스)
+좋아요 893
+
+
+
+
+
+2
+ Invincible
+tripleS (트리플에스)
+좋아요 4,793
+
+
+
+
+
+3
+Rhodanthe
+tripleS (트리플에스)
+좋아요 1,526
+
+
+
+
+
+4
+Heavy Metal Wings
+tripleS (트리플에스)
+좋아요 1,717
+
+
+
+
+
+5
+미열 37.5
+tripleS (트리플에스)
+좋아요 1,898
+
+
+
+
+
+6
+Moto Princess
+tripleS (트리플에스)
+좋아요 1,746
+
+
+
+
+
+7
+Oui
+tripleS (트리플에스)
+좋아요 1,125
+
+
+
+
+
+8
+Enhanced Flower
+
   
 alter table all_song_album
 add column so_id int auto_increment primary key;
