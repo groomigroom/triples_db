@@ -153,51 +153,14 @@ values
 (1, "＆#10209;", "EVOLution <⟡>"),
 (2, "Invincible", "EVOLution <⟡>"),
 (3, "Rhodanthe", "EVOLution <⟡>"),
+(4, "Heavy Metal Wings", "EVOLution <⟡>"),
+(5, "미열 37.5", "EVOLution <⟡>"),
+(6, "Moto Princess", "EVOLution <⟡>"),
+(7, "Oui", "EVOLution <⟡>"),
+(8, "Enhanced Flower", "EVOLution <⟡>"),
 
 
 
-
-
-
-
-4
-Heavy Metal Wings
-tripleS (트리플에스)
-좋아요 1,717
-
-
-
-
-
-5
-미열 37.5
-tripleS (트리플에스)
-좋아요 1,898
-
-
-
-
-
-6
-Moto Princess
-tripleS (트리플에스)
-좋아요 1,746
-
-
-
-
-
-7
-Oui
-tripleS (트리플에스)
-좋아요 1,125
-
-
-
-
-
-8
-Enhanced Flower
 
 LOVElution <ↀ>
 
