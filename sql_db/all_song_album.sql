@@ -149,6 +149,7 @@ values
 (31, "첫 이별 (Farewell My First) (Inst.)", "4study4work4inst Vol.1"),
 (1, "Door", "Aria <Structure Of Sadness>"),
 (2, "첫 이별 (Farewell My First)", "Aria <Structure Of Sadness>"),
+(1, "Just Do It", "NXT <Just Do It>"),
 
 
 
@@ -156,15 +157,6 @@ values
 
 
 
-
-
-2
-
-
-NXT <Just Do It>
-
-1
- Just Do It
 
 
 EVOLution <⟡>
