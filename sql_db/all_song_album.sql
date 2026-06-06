@@ -93,100 +93,16 @@ values
 (1, "Untitled", "tripleS hatch! <Untitled>"),
 (1, "Polaroid (by 나경, 마유, 시온, 채원)", "Polaroid"),
 (2, "Polaroid (by 나경, 마유, 시온, 채원) (Inst.)", "Polaroid"),
-
-
-
-
-
-
-
-Visionary Vision <Performante>
-
-
-1
-Visual Virtue
-tripleS (트리플에스)
-좋아요 831
-
-
-
-
-
-2
- Hit the Floor
-tripleS (트리플에스)
-좋아요 5,422
-
-
-
-
-
-3
-Choom
-tripleS (트리플에스)
-좋아요 1,372
-
-
-
-
-
-4
-Éclair
-tripleS (트리플에스)
-좋아요 1,208
-
-
-
-
-
-5
-연애소설 (Love Soseol)
-tripleS (트리플에스)
-좋아요 1,301
-
-
-
-
-
-6
-Atmosphere (VV Ver.)
-tripleS (트리플에스)
-좋아요 1,097
-
-
-
-
-
-7
-12 Rings
-tripleS (트리플에스)
-좋아요 962
-
-
-
-
-
-8
-Vision
-tripleS (트리플에스)
-좋아요 1,116
-
-
-
-
-
-9
-Bionic Power
-tripleS (트리플에스)
-좋아요 1,027
-
-
-
-
-
-10
-Visionary Vision
-
+(1, "Visual Virtue", "Visionary Vision <Performante>"),
+(2, "Hit the Floor", "Visionary Vision <Performante>"),
+(3, "Choom", "Visionary Vision <Performante>"),
+(4, "Éclair", "Visionary Vision <Performante>"),
+(5, "연애소설 (Love Soseol)", "Visionary Vision <Performante>"),
+(6, "Atmosphere (VV Ver.)", "Visionary Vision <Performante>"),
+(7, "12 Rings", "Visionary Vision <Performante>"),
+(8, "Vision", "Visionary Vision <Performante>"),
+(9, "Bionic Power", "Visionary Vision <Performante>"),
+(10, "Visionary Vision", "Visionary Vision <Performante>"),
 
 
 <###>
