@@ -116,6 +116,284 @@ values
 (9, "Non Scale", "〈ASSEMBLE24〉"),
 (10, "Dimension", "〈ASSEMBLE24〉"),
 
+
+4study4work4inst Vol.1
+
+1
+Generation (Inst.)
+tripleS (트리플에스)
+좋아요 554
+
+
+
+
+
+2
+Rolex (Inst.)
+tripleS (트리플에스)
+좋아요 379
+
+
+
+
+
+3
+찰나 (Charla) (Inst.)
+tripleS (트리플에스)
+좋아요 355
+
+
+
+
+
+4
+Dimension (AAA Ver.) (Inst.)
+tripleS (트리플에스)
+좋아요 352
+
+
+
+
+
+5
+Beam (Inst.)
+tripleS (트리플에스)
+좋아요 351
+
+
+
+
+
+6
+ Rising (Inst.)
+tripleS (트리플에스)
+좋아요 553
+
+
+
+
+
+7
+Colorful (Inst.)
+tripleS (트리플에스)
+좋아요 350
+
+
+
+
+
+8
+The Baddest (Inst.)
+tripleS (트리플에스)
+좋아요 339
+
+
+
+
+
+9
+New Look (Inst.)
+tripleS (트리플에스)
+좋아요 355
+
+
+
+
+
+10
+Cherry Talk (Inst.)
+tripleS (트리플에스)
+좋아요 360
+
+
+
+
+
+11
+Touch (Inst.)
+tripleS (트리플에스)
+좋아요 332
+
+
+
+
+
+12
+(숨겨 봐봐) Hide & Seek (Inst.)
+tripleS (트리플에스)
+좋아요 327
+
+
+
+
+
+13
+Deja-Vu (Inst.)
+tripleS (트리플에스)
+좋아요 344
+
+
+
+
+
+14
+Dimension (KRE Ver.) (Inst.)
+tripleS (트리플에스)
+좋아요 317
+
+
+
+
+
+15
+Touch+ (Inst.)
+tripleS (트리플에스)
+좋아요 320
+
+
+
+
+
+16
+Girls’ Capitalism (Inst.)
+tripleS (트리플에스)
+좋아요 439
+
+
+
+
+
+17
+복합성 (Complexity) (Inst.)
+tripleS (트리플에스)
+좋아요 337
+
+
+
+
+
+18
+Black Soul Dress (Inst.)
+tripleS (트리플에스)
+좋아요 351
+
+
+
+
+
+19
+Seoul Sonyo Sound (Inst.)
+tripleS (트리플에스)
+좋아요 335
+
+
+
+
+
+20
+Cry Baby (Inst.)
+tripleS (트리플에스)
+좋아요 332
+
+
+
+
+
+21
+Speed Love (Inst.)
+tripleS (트리플에스)
+좋아요 354
+
+
+
+
+
+22
+Invincible (Inst.)
+tripleS (트리플에스)
+좋아요 355
+
+
+
+
+
+23
+Rhodanthe (Inst.)
+tripleS (트리플에스)
+좋아요 318
+
+
+
+
+
+24
+Heavy Metal Wings (Inst.)
+tripleS (트리플에스)
+좋아요 327
+
+
+
+
+
+25
+미열 37.5 (Inst.)
+tripleS (트리플에스)
+좋아요 337
+
+
+
+
+
+26
+Moto Princess (Inst.)
+tripleS (트리플에스)
+좋아요 345
+
+
+
+
+
+27
+Oui (Inst.)
+tripleS (트리플에스)
+좋아요 314
+
+
+
+
+
+28
+Enhanced Flower (Inst.)
+tripleS (트리플에스)
+좋아요 316
+
+
+
+
+
+29
+Just Do It (Inst.)
+tripleS (트리플에스)
+좋아요 350
+
+
+
+
+
+30
+Door (Inst.)
+tripleS (트리플에스)
+좋아요 327
+
+
+
+
+
+31
+첫 이별 (Farewell My First) (Inst.)
+tripleS (트리플에스)
+
+  
 alter table all_song_album
 add column so_id int auto_increment primary key;
 
