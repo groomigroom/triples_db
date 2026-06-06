@@ -409,6 +409,137 @@ insert into all_song_selling (title, album, 판매_억단위) values
 ("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))", 222),
 ("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)", 45);
 
+select title, album, 판매_억단위 - (select avg(판매_억단위) from all_song_selling) as "평균_판매_금액과의 차이"
+from all_song_selling; 
+
+/*
+출력값
++-----------------------------------------------------+----------------------------------------------------------------+-----------------------------------+
+| title                                               | album                                                          | 평균_판매_금액과의 차이           |
++-----------------------------------------------------+----------------------------------------------------------------+-----------------------------------+
+| Baby Flower Japanese Version                        | Baby Flower Japanese Version                                   |                         -478.9815 |
+| Sad Girls Schemin                                   | love_and_pop_pt1                                               |                         -578.9815 |
+| Peer                                                | love_and_pop_pt1                                               |                         -567.9815 |
+| Baby Flower                                         | love_and_pop_pt1                                               |                         -494.9815 |
+| Type of Girl                                        | love_and_pop_pt1                                               |                         -577.9815 |
+| Sleek                                               | love_and_pop_pt1                                               |                         -523.9815 |
+| I Like That                                         | love_and_pop_pt1                                               |                         -545.9815 |
+| Me Myself Mode                                      | love_and_pop_pt1                                               |                         -512.9815 |
+| Tokimetique                                         | Tokimetique                                                    |                         -556.9815 |
+| Tokimetique -Shin Sakiura Remix-                    | Tokimetique                                                    |                         -567.9815 |
+| Tokimetique TV Edit                                 | Tokimetique                                                    |                         -545.9815 |
+| 깨어 (Are You Alive) (Inst.)                        | 4study4work4inst_Vol.3                                         |                         -545.9815 |
+| 추리소설 (Detective Soseol) (Inst.)                 | 4study4work4inst_Vol.3                                         |                         -556.9815 |
+| 어제 우리 불꽃놀이 (Firework Diary) (Inst.)         | 4study4work4inst_Vol.3                                         |                         -578.9815 |
+| Love Child (Inst.)                                  | 4study4work4inst_Vol.3                                         |                         -534.9815 |
+| Persona (Inst.)                                     | 4study4work4inst_Vol.3                                         |                         -582.9815 |
+| Too Hot (Inst.)                                     | 4study4work4inst_Vol.3                                         |                         -490.9815 |
+| Diablo (Inst.)                                      | 4study4work4inst_Vol.3                                         |                         -578.9815 |
+| Friend Zone (Inst.)                                 | 4study4work4inst_Vol.3                                         |                         -577.9815 |
+| Love2Love (Inst.)                                   | 4study4work4inst_Vol.3                                         |                         -467.9815 |
+| Fly Up (Inst.)                                      | 4study4work4inst_Vol.3                                         |                         -389.9815 |
+| Cameo Love (Inst.)                                  | 4study4work4inst_Vol.3                                         |                         -534.9815 |
+| Bubble Gum Girl (Inst.)                             | 4study4work4inst_Vol.3                                         |                         -345.9815 |
+| Q&A (Inst.)                                         | 4study4work4inst_Vol.3                                         |                         -133.9815 |
+| Christmas Alone (Inst.)                             | 4study4work4inst_Vol.3                                         |                           10.0185 |
+| Magic Shine New Zone                                | msnz_Beyond_Beauty                                             |                         -523.9815 |
+| Fly Up                                              | msnz_Beyond_Beauty                                             |                         -334.9815 |
+| Cameo Love                                          | msnz_Beyond_Beauty                                             |                          635.0185 |
+| Bubble Gum Girl                                     | msnz_Beyond_Beauty                                             |                          610.0185 |
+| Q&A                                                 | msnz_Beyond_Beauty                                             |                         3410.0185 |
+| Christmas Alone                                     | msnz_Beyond_Beauty                                             |                         3310.0185 |
+| Password                                            | tripleS_hatch!_SecretHimitsuBimil                              |                          654.0185 |
+| Headphones                                          | tripleS_hatch!_SecretHimitsuBimil                              |                         -333.9815 |
+| Tokimetique                                         | tripleS_hatch!_SecretHimitsuBimil                              |                         -545.9815 |
+| TOKYO                                               | tripleS_hatch!_SecretHimitsuBimil                              |                         -534.9815 |
+| Oshare                                              | tripleS_hatch!_SecretHimitsuBimil                              |                          165.0185 |
+| Untitled                                            | tripleS_hatch!_SecretHimitsuBimil                              |                         -344.9815 |
+| ### (hatch! Version)                                | tripleS_hatch!_SecretHimitsuBimil                              |                          -34.9815 |
+| Password                                            | tripleS hatch! <Password>                                      |                          165.0185 |
+| Pink Power                                          | Pink Power(잔망루피, tripleS (트리플에스))                     |                         -575.9815 |
+| @% (Alpha Percent)                                  | <ASSEMBLE25>                                                   |                         -534.9815 |
+| 깨어 (Are You Alive)                                | <ASSEMBLE25>                                                   |                         1654.0185 |
+| 추리소설 (Detective Soseol)                         | <ASSEMBLE25>                                                   |                          665.0185 |
+| 어제 우리 불꽃놀이 (Firework Diary)                 | <ASSEMBLE25>                                                   |                         -133.9815 |
+| Love Child                                          | <ASSEMBLE25>                                                   |                           75.0185 |
+| Persona                                             | <ASSEMBLE25>                                                   |                         -113.9815 |
+| Too Hot                                             | <ASSEMBLE25>                                                   |                          510.0185 |
+| Diablo                                              | <ASSEMBLE25>                                                   |                         -344.9815 |
+| Friend Zone                                         | <ASSEMBLE25>                                                   |                           75.0185 |
+| Love2Love                                           | <ASSEMBLE25>                                                   |                           10.0185 |
+| Girls Never Die (Japanese Version)                  | Girls Never Die (Japanese Version)                             |                          632.0185 |
+| Rising (Japanese Version)                           | Rising (Japanese Version)                                      |                         4964.0185 |
+| Dreaming (by 유연, 유빈, 다현, 시온)                | Dreaming (골 때리는 그녀들 X tripleS (트리플에스))             |                         -367.9815 |
+| Dreaming (by 유연, 유빈, 다현, 시온)                | Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)                   |                         -544.9815 |
++-----------------------------------------------------+----------------------------------------------------------------+-----------------------------------+
+*/
+
+------------------------------
+
+create table all_song_selling
+(
+  so_id int not null auto_increment primary key,
+  title varchar(50),
+  album varchar(50),
+  판매_억단위 int
+);
+
+insert into all_song_selling (title, album, 판매_억단위) values
+("Baby Flower Japanese Version", "Baby Flower Japanese Version", 111),
+("Sad Girls Schemin", "love_and_pop_pt1", 11),
+("Peer", "love_and_pop_pt1", 22),
+("Baby Flower", "love_and_pop_pt1", 95),
+("Type of Girl", "love_and_pop_pt1", 12),
+("Sleek", "love_and_pop_pt1", 66),
+("I Like That", "love_and_pop_pt1", 44),
+("Me Myself Mode", "love_and_pop_pt1", 77),
+("Tokimetique", "Tokimetique", 33),
+("Tokimetique -Shin Sakiura Remix-", "Tokimetique", 22),
+("Tokimetique TV Edit", "Tokimetique", 44),
+("깨어 (Are You Alive) (Inst.)", "4study4work4inst_Vol.3", 44),
+("추리소설 (Detective Soseol) (Inst.)", "4study4work4inst_Vol.3", 33),
+("어제 우리 불꽃놀이 (Firework Diary) (Inst.)", "4study4work4inst_Vol.3", 11),
+("Love Child (Inst.)", "4study4work4inst_Vol.3", 55),
+("Persona (Inst.)", "4study4work4inst_Vol.3", 7),
+("Too Hot (Inst.)", "4study4work4inst_Vol.3", 99),
+("Diablo (Inst.)", "4study4work4inst_Vol.3", 11),
+("Friend Zone (Inst.)", "4study4work4inst_Vol.3", 12),
+("Love2Love (Inst.)", "4study4work4inst_Vol.3", 122),
+("Fly Up (Inst.)", "4study4work4inst_Vol.3", 200),
+("Cameo Love (Inst.)", "4study4work4inst_Vol.3", 55),
+("Bubble Gum Girl (Inst.)", "4study4work4inst_Vol.3", 244),
+("Q&A (Inst.)", "4study4work4inst_Vol.3", 456),
+("Christmas Alone (Inst.)", "4study4work4inst_Vol.3", 600),
+("Magic Shine New Zone", "msnz_Beyond_Beauty", 66),
+("Fly Up", "msnz_Beyond_Beauty", 255),
+("Cameo Love", "msnz_Beyond_Beauty", 1225),
+("Bubble Gum Girl", "msnz_Beyond_Beauty", 1200),
+("Q&A", "msnz_Beyond_Beauty", 4000),
+("Christmas Alone", "msnz_Beyond_Beauty", 3900),
+("Password", "tripleS_hatch!_SecretHimitsuBimil", 1244),
+("Headphones", "tripleS_hatch!_SecretHimitsuBimil", 256),
+("Tokimetique", "tripleS_hatch!_SecretHimitsuBimil", 44),
+("TOKYO", "tripleS_hatch!_SecretHimitsuBimil", 55),
+("Oshare", "tripleS_hatch!_SecretHimitsuBimil", 755),
+("Untitled", "tripleS_hatch!_SecretHimitsuBimil", 245),
+("### (hatch! Version)", "tripleS_hatch!_SecretHimitsuBimil", 555),
+("Password", "tripleS hatch! <Password>", 755),
+("Pink Power", "Pink Power(잔망루피, tripleS (트리플에스))", 14),
+("@% (Alpha Percent)", "<ASSEMBLE25>", 55),
+("깨어 (Are You Alive)", "<ASSEMBLE25>", 2244),
+("추리소설 (Detective Soseol)", "<ASSEMBLE25>", 1255),
+("어제 우리 불꽃놀이 (Firework Diary)", "<ASSEMBLE25>", 456),
+("Love Child", "<ASSEMBLE25>", 665),
+("Persona", "<ASSEMBLE25>", 476),
+("Too Hot", "<ASSEMBLE25>", 1100),
+("Diablo", "<ASSEMBLE25>", 245),
+("Friend Zone", "<ASSEMBLE25>", 665),
+("Love2Love", "<ASSEMBLE25>", 600),
+("Girls Never Die (Japanese Version)", "Girls Never Die (Japanese Version)", 1222),
+("Rising (Japanese Version)", "Rising (Japanese Version)", 5554),
+("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))", 222),
+("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)", 45);
+
 select *
 from all_song_selling
 where 판매_억단위 > (
