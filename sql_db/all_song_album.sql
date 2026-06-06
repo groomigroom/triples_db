@@ -115,23 +115,15 @@ values
 (8, "이면의 이면 (Beyond the Beyond)", "〈ASSEMBLE24〉"),
 (9, "Non Scale", "〈ASSEMBLE24〉"),
 (10, "Dimension", "〈ASSEMBLE24〉"),
-
-
-4study4work4inst Vol.1
-
-1
-Generation (Inst.)
-tripleS (트리플에스)
-좋아요 554
+  
+(1, "Generation (Inst.)", "4study4work4inst Vol.1"),
+(2, "Rolex (Inst.)", "4study4work4inst Vol.1"),
 
 
 
 
 
-2
-Rolex (Inst.)
-tripleS (트리플에스)
-좋아요 379
+
 
 
 
