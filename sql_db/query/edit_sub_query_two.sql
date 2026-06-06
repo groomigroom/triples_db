@@ -135,6 +135,14 @@ b.s_id =c.s_id;
 
 
 
+select avg(f.판매_억단위), f.album
+from 
+(
+select a.title
+)
+all_song_selling a
+
+
 SELECT AVG(f.salary)
   FROM ( SELECT a.dept_no, a.dept_name,
                 COUNT(*) cnt, SUM(c.salary) salary
@@ -148,7 +156,7 @@ SELECT AVG(f.salary)
           GROUP BY a.dept_no, a.dept_name
        ) f ;
 
-
+------------------------------
 
 SELECT YEAR(a.release_date), a.ranks, a.movie_name,
        ROUND(a.sale_amt / b.total_amt * 100,2) percentage
