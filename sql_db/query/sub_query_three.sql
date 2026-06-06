@@ -176,14 +176,35 @@ insert into all_song_selling (title, album, 판매_억단위) values
 ("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))", 222),
 ("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)", 45);
 
-select count(track), album
-from all_song_album
-group by album
-join (select album, sum(판매_억단위) as full_sum
-from all_song_selling
-group by album) al_sum
-on al_sum.album = all_song_ablum.album;
+SELECT 
+    COUNT(a.track) AS track_count, 
+    a.album, 
+    al_sum.full_sum
+FROM all_song_album a
+JOIN (
+    SELECT album, SUM(판매_억단위) AS full_sum
+    FROM all_song_selling
+    GROUP BY album
+) al_sum ON al_sum.album = a.album
+GROUP BY a.album, al_sum.full_sum;
 
 /*
-
+출력값
++-------------+----------------------------------------------------------------+----------+
+| track_count | album                                                          | full_sum |
++-------------+----------------------------------------------------------------+----------+
+|           1 | Baby Flower Japanese Version                                   |      111 |
+|           7 | love_and_pop_pt1                                               |      327 |
+|           3 | Tokimetique                                                    |       99 |
+|          14 | 4study4work4inst_Vol.3                                         |     1949 |
+|           6 | msnz_Beyond_Beauty                                             |    10646 |
+|           7 | tripleS_hatch!_SecretHimitsuBimil                              |     3154 |
+|           1 | tripleS hatch! <Password>                                      |      755 |
+|           1 | Pink Power(잔망루피, tripleS (트리플에스))                     |       14 |
+|          10 | <ASSEMBLE25>                                                   |     7761 |
+|           1 | Girls Never Die (Japanese Version)                             |     1222 |
+|           1 | Rising (Japanese Version)                                      |     5554 |
+|           1 | Dreaming (골 때리는 그녀들 X tripleS (트리플에스))             |      222 |
+|           1 | Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)                   |       45 |
++-------------+----------------------------------------------------------------+----------+
 */
