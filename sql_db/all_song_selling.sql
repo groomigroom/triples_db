@@ -59,6 +59,31 @@ values
 ("Love2Love", "<ASSEMBLE25>", 600),
 ("Girls Never Die (Japanese Version)", "Girls Never Die (Japanese Version)", 1222),
 ("Rising (Japanese Version)", "Rising (Japanese Version)", 5554),
+
+
+(4, "PainDrop (by 서연, 지우, 유빈, 소현)", "선의의 경쟁 OST"),
+(1, "PainDrop (by 서연, 지우, 유빈, 소현)", "선의의경쟁 OST Part.4"),
+(2, "PainDrop (by 서연, 지우, 유빈, 소현) (Inst)", "선의의경쟁 OST Part.4"),
+(1, "Girls Never Die (Inst.)", "4study4work4inst Vol.2"),
+(2, "가시권 (Heart Raider) (Inst.)", "4study4work4inst Vol.2"),
+(3, "Midnight Flower (Inst.)", "4study4work4inst Vol.2"),
+(4, "White Soul Sneakers (Inst.)", "4study4work4inst Vol.2"),
+(5, "치유 (Chiyu) (Inst.)", "4study4work4inst Vol.2"),
+(6, "24 (Inst.)", "4study4work4inst Vol.2"),
+(7, "이면의 이면 (Beyond the Beyond) (Inst.)", "4study4work4inst Vol.2"),
+(8, "Non Scale (Inst.)", "4study4work4inst Vol.2"),
+(9, "Dimension (Inst.)", "4study4work4inst Vol.2"),
+(10, "내적 댄스 (Inner Dance) (Inst.)", "4study4work4inst Vol.2"),
+(11, "Hit the Floor (Inst.)", "4study4work4inst Vol.2"),
+(12, "Choom (Inst.)", "4study4work4inst Vol.2"),
+(13, "Éclair (Inst.)", "4study4work4inst Vol.2"),
+(14, "연애소설 (Love Soseol) (Inst.)", "4study4work4inst Vol.2"),
+(15, "Atmosphere (VV Ver.) (Inst.)", "4study4work4inst Vol.2"),
+(16, "12 Rings (Inst.)", "4study4work4inst Vol.2"),
+(17, "Vision (Inst.)", "4study4work4inst Vol.2"),
+(18, "Bionic Power (Inst.)", "4study4work4inst Vol.2"),
+
+  
 ("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))", 222),
 ("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)", 45),
 
