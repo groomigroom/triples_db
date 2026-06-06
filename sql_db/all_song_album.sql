@@ -116,7 +116,12 @@ values
 (9, "Non Scale", "〈ASSEMBLE24〉"),
 (10, "Dimension", "〈ASSEMBLE24〉"),
 
+alter table all_song_album
+add column so_id int auto_increment primary key;
 
+insert into all_song_album(so_id)
+values
+(null);
 
 
 
