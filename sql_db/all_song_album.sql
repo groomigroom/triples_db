@@ -158,78 +158,16 @@ values
 (6, "Moto Princess", "EVOLution <⟡>"),
 (7, "Oui", "EVOLution <⟡>"),
 (8, "Enhanced Flower", "EVOLution <⟡>"),
+(1, "&#8576;", "LOVElution <ↀ>"),
+(2, "Girls’ Capitalism", "LOVElution <ↀ>"),
+(3, "복합성 (Complexity)", "LOVElution <ↀ>"),
+(4, "Black Soul Dress", "LOVElution <ↀ>"),
+(5, "Seoul Sonyo Sound", "LOVElution <ↀ>"),
+(6, "Cry Baby", "LOVElution <ↀ>"),
+(7, "Speed Love", "LOVElution <ↀ>"),
+(8, "Number 8", "LOVElution <ↀ>"),
 
 
-
-
-LOVElution <ↀ>
-
-
-1
-&#8576;
-tripleS (트리플에스)
-좋아요 1,137
-
-
-
-
-
-2
- Girls’ Capitalism
-tripleS (트리플에스)
-좋아요 12,856
-
-
-
-
-
-3
-복합성 (Complexity)
-tripleS (트리플에스)
-좋아요 2,419
-
-
-
-
-
-4
-Black Soul Dress
-tripleS (트리플에스)
-좋아요 2,358
-
-
-
-
-
-5
-Seoul Sonyo Sound
-tripleS (트리플에스)
-좋아요 1,748
-
-
-
-
-
-6
-Cry Baby
-tripleS (트리플에스)
-좋아요 1,902
-
-
-
-
-
-7
-Speed Love
-tripleS (트리플에스)
-좋아요 2,061
-
-
-
-
-
-8
-Number 8
 
 
 
