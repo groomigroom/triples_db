@@ -87,29 +87,9 @@ values
 
 (1, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))"),
 (2, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)"),
-
-
-tripleS hatch! <Untitled>
-1
- Untitled
-tripleS (트리플에스)
-좋아요 471
-
-
-
-
-
-2
-### (hatch! Version)
-tripleS (트리플에스)
-좋아요 365
-
-
-
-
-
-3
-###
+(1, "Untitled", "tripleS hatch! <Untitled>"),
+(2, "### (hatch! Version)", "tripleS hatch! <Untitled>"),
+(3, "###", "tripleS hatch! <Untitled>"),
 
 
 
