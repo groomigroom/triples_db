@@ -150,39 +150,11 @@ values
 (1, "Door", "Aria <Structure Of Sadness>"),
 (2, "첫 이별 (Farewell My First)", "Aria <Structure Of Sadness>"),
 (1, "Just Do It", "NXT <Just Do It>"),
+(1, "＆#10209;", "EVOLution <⟡>"),
+(2, "Invincible", "EVOLution <⟡>"),
+(3, "Rhodanthe", "EVOLution <⟡>"),
 
 
-
-
-
-
-
-
-
-EVOLution <⟡>
-
-1
-＆#10209;
-tripleS (트리플에스)
-좋아요 893
-
-
-
-
-
-2
- Invincible
-tripleS (트리플에스)
-좋아요 4,793
-
-
-
-
-
-3
-Rhodanthe
-tripleS (트리플에스)
-좋아요 1,526
 
 
 
