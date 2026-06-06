@@ -90,12 +90,9 @@ values
 (1, "Untitled", "tripleS hatch! <Untitled>"),
 (2, "### (hatch! Version)", "tripleS hatch! <Untitled>"),
 (3, "###", "tripleS hatch! <Untitled>"),
+(1, "Untitled", "tripleS hatch! <Untitled>"),
 
 
-
-tripleS hatch! <Untitled>
-1
-Untitled
 
 
 Polaroid
