@@ -166,33 +166,13 @@ values
 (6, "Cry Baby", "LOVElution <ↀ>"),
 (7, "Speed Love", "LOVElution <ↀ>"),
 (8, "Number 8", "LOVElution <ↀ>"),
+(1, "Cherry Gene 'Baddest Mix'", "Acid Eyes <Cherry Gene>"),
+(2, "Cherry Gene 'Hy-Fluid Mix'", "Acid Eyes <Cherry Gene>"),
+(3, "Cherry Gene 'Testarossa Mix'", "Acid Eyes <Cherry Gene>"),
 
 
 
 
-
-Acid Eyes <Cherry Gene>
-
-1
- Cherry Gene 'Baddest Mix'
-tripleS (트리플에스)
-좋아요 1,362
-
-
-
-
-
-2
-Cherry Gene 'Hy-Fluid Mix'
-tripleS (트리플에스)
-좋아요 536
-
-
-
-
-
-3
-Cherry Gene 'Testarossa Mix'
 
 
 +(KR)ystal Eyes <Touch+>
