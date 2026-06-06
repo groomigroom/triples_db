@@ -105,98 +105,18 @@ values
 (10, "Visionary Vision", "Visionary Vision <Performante>"),
 (1, "###", "<###>"),
 (1, "내적 댄스 (Inner Dance)", "Glow <Inner Dance>"),
+(1, "S", "〈ASSEMBLE24〉"),
+(2, "Girls Never Die", "〈ASSEMBLE24〉"),
+(3, "가시권 (Heart Raider)", "〈ASSEMBLE24〉"),
+(4, "Midnight Flower", "〈ASSEMBLE24〉"),
+(5, "White Soul Sneakers", "〈ASSEMBLE24〉"),
+(6, "치유 (Chiyu)", "〈ASSEMBLE24〉"),
+(7, "24", "〈ASSEMBLE24〉"),
+(8, "이면의 이면 (Beyond the Beyond)", "〈ASSEMBLE24〉"),
+(9, "Non Scale", "〈ASSEMBLE24〉"),
+(10, "Dimension", "〈ASSEMBLE24〉"),
 
 
 
 
 
-
-1
- 
-
-〈ASSEMBLE24〉
-
-
-1
-S
-tripleS (트리플에스)
-좋아요 1,632
-
-
-
-
-
-2
- Girls Never Die
-tripleS (트리플에스)
-좋아요 70,936
-
-
-
-
-
-3
-가시권 (Heart Raider)
-tripleS (트리플에스)
-좋아요 2,028
-
-
-
-
-
-4
-Midnight Flower
-tripleS (트리플에스)
-좋아요 2,038
-
-
-
-
-
-5
-White Soul Sneakers
-tripleS (트리플에스)
-좋아요 1,563
-
-
-
-
-
-6
-치유 (Chiyu)
-tripleS (트리플에스)
-좋아요 2,033
-
-
-
-
-
-7
-24
-tripleS (트리플에스)
-좋아요 5,474
-
-
-
-
-
-8
-이면의 이면 (Beyond the Beyond)
-tripleS (트리플에스)
-좋아요 1,791
-
-
-
-
-
-9
-Non Scale
-tripleS (트리플에스)
-좋아요 2,832
-
-
-
-
-
-10
-Dimension
