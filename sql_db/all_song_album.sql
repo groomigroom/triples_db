@@ -91,24 +91,13 @@ values
 (2, "### (hatch! Version)", "tripleS hatch! <Untitled>"),
 (3, "###", "tripleS hatch! <Untitled>"),
 (1, "Untitled", "tripleS hatch! <Untitled>"),
-
-
-
-
-Polaroid
-
-
-1
- Polaroid (by 나경, 마유, 시온, 채원)
-tripleS (트리플에스)
-좋아요 941
+(1, "Polaroid (by 나경, 마유, 시온, 채원)", "Polaroid"),
+(2, "Polaroid (by 나경, 마유, 시온, 채원) (Inst.)", "Polaroid"),
 
 
 
 
 
-2
-Polaroid (by 나경, 마유, 시온, 채원) (Inst.)
 
 
 Visionary Vision <Performante>
