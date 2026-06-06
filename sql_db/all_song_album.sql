@@ -138,68 +138,15 @@ values
 (20, "Cry Baby (Inst.)", "4study4work4inst Vol.1"),
 (21, "Speed Love (Inst.)", "4study4work4inst Vol.1"),
 (22, "Invincible (Inst.)", "4study4work4inst Vol.1"),
+(23, "Rhodanthe (Inst.)", "4study4work4inst Vol.1"),
+(24, "Heavy Metal Wings (Inst.)", "4study4work4inst Vol.1"),
+(25, "미열 37.5 (Inst.)", "4study4work4inst Vol.1"),
+(26, "Moto Princess (Inst.)", "4study4work4inst Vol.1"),
+(27, "Oui (Inst.)", "4study4work4inst Vol.1"),
+(28, "Enhanced Flower (Inst.)", "4study4work4inst Vol.1"),
+(29, "Just Do It (Inst.)", "4study4work4inst Vol.1"),
 
 
-
-
-23
-Rhodanthe (Inst.)
-tripleS (트리플에스)
-좋아요 318
-
-
-
-
-
-24
-Heavy Metal Wings (Inst.)
-tripleS (트리플에스)
-좋아요 327
-
-
-
-
-
-25
-미열 37.5 (Inst.)
-tripleS (트리플에스)
-좋아요 337
-
-
-
-
-
-26
-Moto Princess (Inst.)
-tripleS (트리플에스)
-좋아요 345
-
-
-
-
-
-27
-Oui (Inst.)
-tripleS (트리플에스)
-좋아요 314
-
-
-
-
-
-28
-Enhanced Flower (Inst.)
-tripleS (트리플에스)
-좋아요 316
-
-
-
-
-
-29
-Just Do It (Inst.)
-tripleS (트리플에스)
-좋아요 350
 
 
 
