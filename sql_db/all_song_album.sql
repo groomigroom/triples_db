@@ -169,70 +169,16 @@ values
 (1, "Cherry Gene 'Baddest Mix'", "Acid Eyes <Cherry Gene>"),
 (2, "Cherry Gene 'Hy-Fluid Mix'", "Acid Eyes <Cherry Gene>"),
 (3, "Cherry Gene 'Testarossa Mix'", "Acid Eyes <Cherry Gene>"),
+(1, "Touch+", "+(KR)ystal Eyes <Touch+>"),
+(1, "Cherry 100%", "+(KR)ystal Eyes <AESTHETIC>"),
+(2, "Cherry Talk", "+(KR)ystal Eyes <AESTHETIC>"),
+(3, "Touch", "+(KR)ystal Eyes <AESTHETIC>"),
+(4, "(숨겨 봐봐) Hide & Seek", "+(KR)ystal Eyes <AESTHETIC>"),
+(5, "Deja-Vu", "+(KR)ystal Eyes <AESTHETIC>"),
+(6, "Dimension (KRE Ver.)", "+(KR)ystal Eyes <AESTHETIC>"),
 
 
 
-
-
-
-+(KR)ystal Eyes <Touch+>
-
-
-1
- Touch+
-
-
-
-+(KR)ystal Eyes <AESTHETIC>
-
-
-1
-Cherry 100%
-tripleS (트리플에스)
-좋아요 1,189
-
-
-
-
-
-2
- Cherry Talk
-tripleS (트리플에스)
-좋아요 4,918
-
-
-
-
-
-3
-Touch
-tripleS (트리플에스)
-좋아요 2,401
-
-
-
-
-
-4
-(숨겨 봐봐) Hide & Seek
-tripleS (트리플에스)
-좋아요 1,398
-
-
-
-
-
-5
-Deja-Vu
-tripleS (트리플에스)
-좋아요 1,840
-
-
-
-
-
-6
-Dimension (KRE Ver.)
 
 
 ASSEMBLE
