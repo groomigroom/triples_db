@@ -159,9 +159,7 @@ values
 ("Seoul Sonyo Sound", "LOVElution <ↀ>", 777),
 ("Cry Baby", "LOVElution <ↀ>", 544),
 ("Speed Love", "LOVElution <ↀ>", 655),
-("Number 8", "LOVElution <ↀ>", 543),
-
-  
+("Number 8", "LOVElution <ↀ>", 543), 
 ("Cherry Gene 'Baddest Mix'", "Acid Eyes <Cherry Gene>", 122),
 ("Cherry Gene 'Hy-Fluid Mix'", "Acid Eyes <Cherry Gene>", 245),
 ("Cherry Gene 'Testarossa Mix'", "Acid Eyes <Cherry Gene>", 666),
@@ -184,11 +182,7 @@ values
 ("Rolex", "Acid Angel from Asia <ACCESS>", 1224),
 ("찰나 (Charla)", "Acid Angel from Asia <ACCESS>", 243),
 ("Dimension (AAA Ver.)", "Acid Angel from Asia <ACCESS>", 243),
-("+(82)", "Acid Angel from Asia <ACCESS>", 665),
+("+(82)", "Acid Angel from Asia <ACCESS>", 665);
 
 alter table all_song_selling
 add column so_id int auto_increment primary key;
-
-insert into all_song_selling(so_id)
-values
-(null);
