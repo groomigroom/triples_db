@@ -69,3 +69,14 @@ eight_btn.addEventListener("click", () => {
     eight_btn.classList.toggle("on");
     eight_table.classList.toggle("on");
 });
+
+let nine_btn = document.querySelector(".nine_btn");
+let nine_table = document.querySelector(".nine_table");
+
+nine_btn.addEventListener("click", () => {
+    nine_btn.classList.toggle("on");
+    nine_table.classList.toggle("on");
+});
+
+
+
