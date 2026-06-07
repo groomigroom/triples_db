@@ -182,7 +182,7 @@ values
 (3, "Rolex", "Acid Angel from Asia <ACCESS>"),
 (4, "찰나 (Charla)", "Acid Angel from Asia <ACCESS>"),
 (5, "Dimension (AAA Ver.)", "Acid Angel from Asia <ACCESS>"),
-(6, "+(82)", "Acid Angel from Asia <ACCESS>"),
+(6, "+(82)", "Acid Angel from Asia <ACCESS>");
  
 alter table all_song_album
 add column so_id int auto_increment primary key;
