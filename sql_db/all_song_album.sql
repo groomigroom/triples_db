@@ -80,11 +80,6 @@ values
 (16, "12 Rings (Inst.)", "4study4work4inst Vol.2"),
 (17, "Vision (Inst.)", "4study4work4inst Vol.2"),
 (18, "Bionic Power (Inst.)", "4study4work4inst Vol.2"),
-
-
-
-
-
 (1, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))"),
 (2, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)"),
 (1, "Untitled", "tripleS hatch! <Untitled>"),
@@ -115,7 +110,6 @@ values
 (8, "이면의 이면 (Beyond the Beyond)", "〈ASSEMBLE24〉"),
 (9, "Non Scale", "〈ASSEMBLE24〉"),
 (10, "Dimension", "〈ASSEMBLE24〉"),
-  
 (1, "Generation (Inst.)", "4study4work4inst Vol.1"),
 (2, "Rolex (Inst.)", "4study4work4inst Vol.1"),
 (3, "찰나 (Charla) (Inst.)", "4study4work4inst Vol.1"),
@@ -189,19 +183,6 @@ values
 (4, "찰나 (Charla)", "Acid Angel from Asia <ACCESS>"),
 (5, "Dimension (AAA Ver.)", "Acid Angel from Asia <ACCESS>"),
 (6, "+(82)", "Acid Angel from Asia <ACCESS>"),
-
-
-
-
-
-
-  
+ 
 alter table all_song_album
 add column so_id int auto_increment primary key;
-
-insert into all_song_album(so_id)
-values
-(null);
-
-
-
