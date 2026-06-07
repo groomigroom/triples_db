@@ -49,6 +49,8 @@ values
 (7, "### (hatch! Version)", "tripleS_hatch!_SecretHimitsuBimil"),
 (1, "Password", "tripleS hatch! <Password>"),
 (1, "Pink Power", "Pink Power(잔망루피, tripleS (트리플에스))"),
+-- 이거 추가
+(2, "Pink Power (inst.)", "Pink Power(잔망루피, tripleS (트리플에스))"),
 (1, "@% (Alpha Percent)", "<ASSEMBLE25>"),
 (2, "깨어 (Are You Alive)", "<ASSEMBLE25>"),
 (3, "추리소설 (Detective Soseol)", "<ASSEMBLE25>"),
@@ -188,3 +190,6 @@ values
  
 alter table all_song_album
 add column so_id int auto_increment primary key;
+
+select so_id, title
+from all_song_album;
