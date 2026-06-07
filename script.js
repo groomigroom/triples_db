@@ -78,5 +78,13 @@ nine_btn.addEventListener("click", () => {
     nine_table.classList.toggle("on");
 });
 
+let ten_btn = document.querySelector(".ten_btn");
+let ten_table = document.querySelector(".ten_table");
+
+ten_btn.addEventListener("click", () => {
+    ten_btn.classList.toggle("on");
+    ten_table.classList.toggle("on");
+});
+
 
 
