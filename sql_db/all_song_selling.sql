@@ -46,7 +46,8 @@ values
 ("Untitled", "tripleS_hatch!_SecretHimitsuBimil", 245),
 ("### (hatch! Version)", "tripleS_hatch!_SecretHimitsuBimil", 555),
 ("Password", "tripleS hatch! <Password>", 755),
-("Pink Power", "Pink Power(잔망루피, tripleS (트리플에스))", 14),
+("Pink Power", "Pink Power(잔망루피, tripleS (트리플에스))", 144),
+("Pink Power (inst.)", "Pink Power(잔망루피, tripleS (트리플에스))", 14),
 ("@% (Alpha Percent)", "<ASSEMBLE25>", 55),
 ("깨어 (Are You Alive)", "<ASSEMBLE25>", 2244),
 ("추리소설 (Detective Soseol)", "<ASSEMBLE25>", 1255),
@@ -186,3 +187,6 @@ values
 
 alter table all_song_selling
 add column so_id int auto_increment primary key;
+
+select so_id, title
+from all_song_selling;
