@@ -192,3 +192,38 @@ from all_song_album
 where so_id > 20
 group by album
 order by album;
+
+/*
++----------------------------------------------------------------+------------+
+| album                                                          | avg(track) |
++----------------------------------------------------------------+------------+
+| 〈ASSEMBLE24〉                                                 |     5.5000 |
+| +(KR)ystal Eyes <AESTHETIC>                                    |     3.5000 |
+| +(KR)ystal Eyes <Touch+>                                       |     1.0000 |
+| <###>                                                          |     1.0000 |
+| <ASSEMBLE25>                                                   |     5.5000 |
+| 4study4work4inst Vol.1                                         |    16.0000 |
+| 4study4work4inst Vol.2                                         |     9.5000 |
+| 4study4work4inst_Vol.3                                         |    12.0000 |
+| Acid Angel from Asia <ACCESS>                                  |     3.5000 |
+| Acid Eyes <Cherry Gene>                                        |     2.0000 |
+| Aria <Structure Of Sadness>                                    |     1.5000 |
+| ASSEMBLE                                                       |     4.0000 |
+| Dreaming (골 때리는 그녀들 X tripleS (트리플에스))             |     1.5000 |
+| EVOLution <⟡>                                                  |     4.5000 |
+| Girls Never Die (Japanese Version)                             |     1.0000 |
+| Glow <Inner Dance>                                             |     1.0000 |
+| LOVElution <ↀ>                                                 |     4.5000 |
+| msnz_Beyond_Beauty                                             |     3.5000 |
+| NXT <Just Do It>                                               |     1.0000 |
+| Pink Power(잔망루피, tripleS (트리플에스))                     |     1.0000 |
+| Polaroid                                                       |     1.5000 |
+| Rising (Japanese Version)                                      |     1.0000 |
+| tripleS hatch! <Password>                                      |     1.0000 |
+| tripleS hatch! <Untitled>                                      |     1.7500 |
+| tripleS_hatch!_SecretHimitsuBimil                              |     4.0000 |
+| Visionary Vision <Performante>                                 |     5.5000 |
+| 선의의 경쟁 OST                                                |     4.0000 |
+| 선의의경쟁 OST Part.4                                          |     1.5000 |
++----------------------------------------------------------------+------------+
+*/
