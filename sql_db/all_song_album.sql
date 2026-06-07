@@ -5,6 +5,8 @@ create table all_song_album
   album varchar(50)
 );
 
+-- 20번 love2love까지 확인함
+
 insert into all_song_album
 values
 (1, "Baby Flower Japanese Version", "Baby Flower Japanese Version"),
