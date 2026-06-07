@@ -10,7 +10,7 @@ values
 ("Baby Flower Japanese Version", "Baby Flower Japanese Version", 111),
 ("Sad Girls Schemin", "love_and_pop_pt1", 11),
 ("Peer", "love_and_pop_pt1", 22),
-("Baby Flower", "love_and_pop_pt1", 95),
+("Baby Flower", "love_and_pop_pt1", 9999),
 ("Type of Girl", "love_and_pop_pt1", 12),
 ("Sleek", "love_and_pop_pt1", 66),
 ("I Like That", "love_and_pop_pt1", 44),
