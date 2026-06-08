@@ -30,3 +30,36 @@ from all_song_album_one;
 |    25 | Rhodanthe (Inst.)  | 4study4work4inst Vol.1 |
 +-------+--------------------+------------------------+
 */
+
+
+create table all_song_album_one
+(
+  track int,
+  title varchar(50),
+  album varchar(50)
+);
+
+
+insert into all_song_album_one
+values
+(20, "Cry Baby (Inst.)", "4study4work4inst Vol.1"),
+(21, "Speed Love (Inst.)", "4study4work4inst Vol.1"),
+(22, "Invincible (Inst.)", "4study4work4inst Vol.1"),
+(23, "Rhodanthe (Inst.)", "4study4work4inst Vol.1");
+
+
+
+delete from all_song_album_one
+where track = 21;
+
+select *
+from all_song_album_one;
+/*
++-------+--------------------+------------------------+
+| track | title              | album                  |
++-------+--------------------+------------------------+
+|    20 | Cry Baby (Inst.)   | 4study4work4inst Vol.1 |
+|    22 | Invincible (Inst.) | 4study4work4inst Vol.1 |
+|    23 | Rhodanthe (Inst.)  | 4study4work4inst Vol.1 |
++-------+--------------------+------------------------+
+*/
