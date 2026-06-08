@@ -2083,3 +2083,487 @@ natural join all_song_selling b;
 |     6 | +(82)                                                | Acid Angel from Asia <ACCESS>                                  |              665 |
 +-------+------------------------------------------------------+----------------------------------------------------------------+------------------+
 */
+create table all_song_album
+(
+  track int,
+  title varchar(50),
+  album varchar(50)
+);
+
+-- 20번 love2love까지 확인함
+
+insert into all_song_album
+values
+(3, "Tokimetique", "tripleS_hatch!_SecretHimitsuBimil"),
+(4, "TOKYO", "tripleS_hatch!_SecretHimitsuBimil"),
+(5, "Oshare", "tripleS_hatch!_SecretHimitsuBimil"),
+(6, "Untitled", "tripleS_hatch!_SecretHimitsuBimil"),
+(7, "### (hatch! Version)", "tripleS_hatch!_SecretHimitsuBimil"),
+(1, "Password", "tripleS hatch! <Password>"),
+(1, "Pink Power", "Pink Power(잔망루피, tripleS (트리플에스))"),
+-- 이거 추가
+(2, "Pink Power (inst.)", "Pink Power(잔망루피, tripleS (트리플에스))"),
+(1, "@% (Alpha Percent)", "<ASSEMBLE25>"),
+(2, "깨어 (Are You Alive)", "<ASSEMBLE25>"),
+(3, "추리소설 (Detective Soseol)", "<ASSEMBLE25>"),
+(4, "어제 우리 불꽃놀이 (Firework Diary)", "<ASSEMBLE25>"),
+(5, "Love Child", "<ASSEMBLE25>"),
+(6, "Persona", "<ASSEMBLE25>"),
+(7, "Too Hot", "<ASSEMBLE25>"),
+(8, "Diablo", "<ASSEMBLE25>"),
+(9, "Friend Zone", "<ASSEMBLE25>"),
+(10, "Love2Love", "<ASSEMBLE25>"),
+(1, "Girls Never Die (Japanese Version)", "Girls Never Die (Japanese Version)"),
+(1, "Rising (Japanese Version)", "Rising (Japanese Version)"),
+(4, "PainDrop (by 서연, 지우, 유빈, 소현)", "선의의 경쟁 OST"),
+(1, "PainDrop (by 서연, 지우, 유빈, 소현)", "선의의경쟁 OST Part.4"),
+(2, "PainDrop (by 서연, 지우, 유빈, 소현) (Inst)", "선의의경쟁 OST Part.4"),
+(1, "Girls Never Die (Inst.)", "4study4work4inst Vol.2"),
+(2, "가시권 (Heart Raider) (Inst.)", "4study4work4inst Vol.2"),
+(3, "Midnight Flower (Inst.)", "4study4work4inst Vol.2"),
+(4, "White Soul Sneakers (Inst.)", "4study4work4inst Vol.2"),
+(5, "치유 (Chiyu) (Inst.)", "4study4work4inst Vol.2"),
+(6, "24 (Inst.)", "4study4work4inst Vol.2"),
+(7, "이면의 이면 (Beyond the Beyond) (Inst.)", "4study4work4inst Vol.2"),
+(8, "Non Scale (Inst.)", "4study4work4inst Vol.2"),
+(9, "Dimension (Inst.)", "4study4work4inst Vol.2"),
+(10, "내적 댄스 (Inner Dance) (Inst.)", "4study4work4inst Vol.2"),
+(11, "Hit the Floor (Inst.)", "4study4work4inst Vol.2"),
+(12, "Choom (Inst.)", "4study4work4inst Vol.2"),
+(13, "Éclair (Inst.)", "4study4work4inst Vol.2"),
+(14, "연애소설 (Love Soseol) (Inst.)", "4study4work4inst Vol.2"),
+(15, "Atmosphere (VV Ver.) (Inst.)", "4study4work4inst Vol.2"),
+(16, "12 Rings (Inst.)", "4study4work4inst Vol.2"),
+(17, "Vision (Inst.)", "4study4work4inst Vol.2"),
+(18, "Bionic Power (Inst.)", "4study4work4inst Vol.2"),
+(1, "Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))"),
+(2, "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))"),
+(1, "Untitled", "tripleS hatch! <Untitled>"),
+(2, "### (hatch! Version)", "tripleS hatch! <Untitled>"),
+(3, "###", "tripleS hatch! <Untitled>"),
+(1, "Untitled", "tripleS hatch! <Untitled>"),
+(1, "Polaroid (by 나경, 마유, 시온, 채원)", "Polaroid"),
+(2, "Polaroid (by 나경, 마유, 시온, 채원) (Inst.)", "Polaroid"),
+(1, "Visual Virtue", "Visionary Vision <Performante>"),
+(2, "Hit the Floor", "Visionary Vision <Performante>"),
+(3, "Choom", "Visionary Vision <Performante>"),
+(4, "Éclair", "Visionary Vision <Performante>"),
+(5, "연애소설 (Love Soseol)", "Visionary Vision <Performante>"),
+(6, "Atmosphere (VV Ver.)", "Visionary Vision <Performante>"),
+(7, "12 Rings", "Visionary Vision <Performante>"),
+(8, "Vision", "Visionary Vision <Performante>"),
+(9, "Bionic Power", "Visionary Vision <Performante>"),
+(10, "Visionary Vision", "Visionary Vision <Performante>"),
+(1, "###", "<###>"),
+(1, "내적 댄스 (Inner Dance)", "Glow <Inner Dance>"),
+(1, "S", "〈ASSEMBLE24〉"),
+(2, "Girls Never Die", "〈ASSEMBLE24〉"),
+(3, "가시권 (Heart Raider)", "〈ASSEMBLE24〉"),
+(4, "Midnight Flower", "〈ASSEMBLE24〉"),
+(5, "White Soul Sneakers", "〈ASSEMBLE24〉"),
+(6, "치유 (Chiyu)", "〈ASSEMBLE24〉"),
+(7, "24", "〈ASSEMBLE24〉"),
+(8, "이면의 이면 (Beyond the Beyond)", "〈ASSEMBLE24〉"),
+(9, "Non Scale", "〈ASSEMBLE24〉"),
+(10, "Dimension", "〈ASSEMBLE24〉"),
+(1, "Generation (Inst.)", "4study4work4inst Vol.1"),
+(2, "Rolex (Inst.)", "4study4work4inst Vol.1"),
+(3, "찰나 (Charla) (Inst.)", "4study4work4inst Vol.1"),
+(4, "Dimension (AAA Ver.) (Inst.)", "4study4work4inst Vol.1"),
+(5, "Beam (Inst.)", "4study4work4inst Vol.1"),
+(6, "Rising (Inst.)", "4study4work4inst Vol.1"),
+(7, "Colorful (Inst.)", "4study4work4inst Vol.1"),
+(8, "The Baddest (Inst.)", "4study4work4inst Vol.1"),
+(9, "New Look (Inst.)", "4study4work4inst Vol.1"),
+(10, "Cherry Talk (Inst.)", "4study4work4inst Vol.1"),
+(11, "Touch (Inst.)", "4study4work4inst Vol.1"),
+(12, "(숨겨 봐봐) Hide & Seek (Inst.)", "4study4work4inst Vol.1"),
+(13, "Deja-Vu (Inst.)", "4study4work4inst Vol.1"),
+(14, "Dimension (KRE Ver.) (Inst.)", "4study4work4inst Vol.1"),
+(15, "Touch+ (Inst.)", "4study4work4inst Vol.1"),
+(16, "Girls’ Capitalism (Inst.)", "4study4work4inst Vol.1"),
+(17, "복합성 (Complexity) (Inst.)", "4study4work4inst Vol.1"),
+(18, "Black Soul Dress (Inst.)", "4study4work4inst Vol.1"),
+(19, "Seoul Sonyo Sound (Inst.)", "4study4work4inst Vol.1"),
+(20, "Cry Baby (Inst.)", "4study4work4inst Vol.1"),
+(21, "Speed Love (Inst.)", "4study4work4inst Vol.1"),
+(22, "Invincible (Inst.)", "4study4work4inst Vol.1"),
+(23, "Rhodanthe (Inst.)", "4study4work4inst Vol.1"),
+(24, "Heavy Metal Wings (Inst.)", "4study4work4inst Vol.1"),
+(25, "미열 37.5 (Inst.)", "4study4work4inst Vol.1"),
+(26, "Moto Princess (Inst.)", "4study4work4inst Vol.1"),
+(27, "Oui (Inst.)", "4study4work4inst Vol.1"),
+(28, "Enhanced Flower (Inst.)", "4study4work4inst Vol.1"),
+(29, "Just Do It (Inst.)", "4study4work4inst Vol.1"),
+(30, "Door (Inst.)", "4study4work4inst Vol.1"),
+(31, "첫 이별 (Farewell My First) (Inst.)", "4study4work4inst Vol.1"),
+(1, "Door", "Aria <Structure Of Sadness>"),
+(2, "첫 이별 (Farewell My First)", "Aria <Structure Of Sadness>"),
+(1, "Just Do It", "NXT <Just Do It>"),
+(1, "＆#10209;", "EVOLution <⟡>"),
+(2, "Invincible", "EVOLution <⟡>"),
+(3, "Rhodanthe", "EVOLution <⟡>"),
+(4, "Heavy Metal Wings", "EVOLution <⟡>"),
+(5, "미열 37.5", "EVOLution <⟡>"),
+(6, "Moto Princess", "EVOLution <⟡>"),
+(7, "Oui", "EVOLution <⟡>"),
+(8, "Enhanced Flower", "EVOLution <⟡>"),
+(1, "&#8576;", "LOVElution <ↀ>"),
+(2, "Girls’ Capitalism", "LOVElution <ↀ>"),
+(3, "복합성 (Complexity)", "LOVElution <ↀ>"),
+(4, "Black Soul Dress", "LOVElution <ↀ>"),
+(5, "Seoul Sonyo Sound", "LOVElution <ↀ>"),
+(6, "Cry Baby", "LOVElution <ↀ>"),
+(7, "Speed Love", "LOVElution <ↀ>"),
+(8, "Number 8", "LOVElution <ↀ>"),
+(1, "Cherry Gene 'Baddest Mix'", "Acid Eyes <Cherry Gene>"),
+(2, "Cherry Gene 'Hy-Fluid Mix'", "Acid Eyes <Cherry Gene>"),
+(3, "Cherry Gene 'Testarossa Mix'", "Acid Eyes <Cherry Gene>"),
+(1, "Touch+", "+(KR)ystal Eyes <Touch+>"),
+(1, "Cherry 100%", "+(KR)ystal Eyes <AESTHETIC>"),
+(2, "Cherry Talk", "+(KR)ystal Eyes <AESTHETIC>"),
+(3, "Touch", "+(KR)ystal Eyes <AESTHETIC>"),
+(4, "(숨겨 봐봐) Hide & Seek", "+(KR)ystal Eyes <AESTHETIC>"),
+(5, "Deja-Vu", "+(KR)ystal Eyes <AESTHETIC>"),
+(6, "Dimension (KRE Ver.)", "+(KR)ystal Eyes <AESTHETIC>"),
+(1, "Beam", "ASSEMBLE"),
+(2, "Before the Rise", "ASSEMBLE"),
+(3, "Rising", "ASSEMBLE"),
+(4, "Colorful", "ASSEMBLE"),
+(5, "The Baddest", "ASSEMBLE"),
+(6, "New Look", "ASSEMBLE"),
+(7, "초월 (Chowall)", "ASSEMBLE"),
+(1, "Access", "Acid Angel from Asia <ACCESS>"),
+(2, "Generation", "Acid Angel from Asia <ACCESS>"),
+(3, "Rolex", "Acid Angel from Asia <ACCESS>"),
+(4, "찰나 (Charla)", "Acid Angel from Asia <ACCESS>"),
+(5, "Dimension (AAA Ver.)", "Acid Angel from Asia <ACCESS>"),
+(6, "+(82)", "Acid Angel from Asia <ACCESS>");
+ 
+alter table all_song_album
+add column so_id int auto_increment primary key;
+
+create table all_song_selling
+(
+  titles varchar(50),
+  albums varchar(50),
+  판매_억단위 int
+);
+
+insert into all_song_selling
+values
+("Baby Flower Japanese Version", "Baby Flower Japanese Version", 111),
+("Sad Girls Schemin", "love_and_pop_pt1", 11),
+("Peer", "love_and_pop_pt1", 22),
+("Baby Flower", "love_and_pop_pt1", 9999),
+("Type of Girl", "love_and_pop_pt1", 12),
+("Sleek", "love_and_pop_pt1", 66),
+("I Like That", "love_and_pop_pt1", 44),
+("Me Myself Mode", "love_and_pop_pt1", 77),
+("Tokimetique", "Tokimetique", 33),
+("Tokimetique -Shin Sakiura Remix-", "Tokimetique", 22),
+("Tokimetique TV Edit", "Tokimetique", 44),
+("깨어 (Are You Alive) (Inst.)", "4study4work4inst_Vol.3", 44),
+("추리소설 (Detective Soseol) (Inst.)", "4study4work4inst_Vol.3", 33),
+("어제 우리 불꽃놀이 (Firework Diary) (Inst.)", "4study4work4inst_Vol.3", 11),
+("Love Child (Inst.)", "4study4work4inst_Vol.3", 55),
+("Persona (Inst.)", "4study4work4inst_Vol.3", 7),
+("Too Hot (Inst.)", "4study4work4inst_Vol.3", 99),
+("Diablo (Inst.)", "4study4work4inst_Vol.3", 11),
+("Friend Zone (Inst.)", "4study4work4inst_Vol.3", 12),
+("Love2Love (Inst.)", "4study4work4inst_Vol.3", 122),
+("Fly Up (Inst.)", "4study4work4inst_Vol.3", 200),
+("Cameo Love (Inst.)", "4study4work4inst_Vol.3", 55),
+("Bubble Gum Girl (Inst.)", "4study4work4inst_Vol.3", 244),
+("Q&A (Inst.)", "4study4work4inst_Vol.3", 456),
+("Christmas Alone (Inst.)", "4study4work4inst_Vol.3", 600),
+("Magic Shine New Zone", "msnz_Beyond_Beauty", 66),
+("Fly Up", "msnz_Beyond_Beauty", 255),
+("Cameo Love", "msnz_Beyond_Beauty", 1225),
+("Bubble Gum Girl", "msnz_Beyond_Beauty", 1200),
+("Q&A", "msnz_Beyond_Beauty", 4000),
+("Christmas Alone", "msnz_Beyond_Beauty", 3900),
+("Password", "tripleS_hatch!_SecretHimitsuBimil", 1244),
+("Headphones", "tripleS_hatch!_SecretHimitsuBimil", 256),
+("Tokimetique", "tripleS_hatch!_SecretHimitsuBimil", 44),
+("TOKYO", "tripleS_hatch!_SecretHimitsuBimil", 55),
+("Oshare", "tripleS_hatch!_SecretHimitsuBimil", 755),
+("Untitled", "tripleS_hatch!_SecretHimitsuBimil", 245),
+("### (hatch! Version)", "tripleS_hatch!_SecretHimitsuBimil", 555),
+("Password", "tripleS hatch! <Password>", 755),
+("Pink Power", "Pink Power(잔망루피, tripleS (트리플에스))", 144),
+("Pink Power (inst.)", "Pink Power(잔망루피, tripleS (트리플에스))", 14),
+("@% (Alpha Percent)", "<ASSEMBLE25>", 55),
+("깨어 (Are You Alive)", "<ASSEMBLE25>", 2244),
+("추리소설 (Detective Soseol)", "<ASSEMBLE25>", 1255),
+("어제 우리 불꽃놀이 (Firework Diary)", "<ASSEMBLE25>", 456),
+("Love Child", "<ASSEMBLE25>", 665),
+("Persona", "<ASSEMBLE25>", 476),
+("Too Hot", "<ASSEMBLE25>", 1100),
+("Diablo", "<ASSEMBLE25>", 245),
+("Friend Zone", "<ASSEMBLE25>", 665),
+("Love2Love", "<ASSEMBLE25>", 600),
+("Girls Never Die (Japanese Version)", "Girls Never Die (Japanese Version)", 1222),
+("Rising (Japanese Version)", "Rising (Japanese Version)", 5554),
+("PainDrop (by 서연, 지우, 유빈, 소현)", "선의의 경쟁 OST", 2555),
+("PainDrop (by 서연, 지우, 유빈, 소현)", "선의의경쟁 OST Part.4", 4444),
+("PainDrop (by 서연, 지우, 유빈, 소현) (Inst)", "선의의경쟁 OST Part.4", 333),
+("Girls Never Die (Inst.)", "4study4work4inst Vol.2", 2456),
+("가시권 (Heart Raider) (Inst.)", "4study4work4inst Vol.2", 456),
+("Midnight Flower (Inst.)", "4study4work4inst Vol.2", 65),
+("White Soul Sneakers (Inst.)", "4study4work4inst Vol.2", 55),
+("치유 (Chiyu) (Inst.)", "4study4work4inst Vol.2", 444),
+("24 (Inst.)", "4study4work4inst Vol.2", 256),
+("이면의 이면 (Beyond the Beyond) (Inst.)", "4study4work4inst Vol.2", 254),
+("Non Scale (Inst.)", "4study4work4inst Vol.2", 256),
+("Dimension (Inst.)", "4study4work4inst Vol.2", 255),
+("내적 댄스 (Inner Dance) (Inst.)", "4study4work4inst Vol.2", 254),
+( "Hit the Floor (Inst.)", "4study4work4inst Vol.2", 111),
+("Choom (Inst.)", "4study4work4inst Vol.2", 222),
+("Éclair (Inst.)", "4study4work4inst Vol.2", 333),
+("연애소설 (Love Soseol) (Inst.)", "4study4work4inst Vol.2", 456),
+("Atmosphere (VV Ver.) (Inst.)", "4study4work4inst Vol.2", 544),
+("12 Rings (Inst.)", "4study4work4inst Vol.2", 554),
+("Vision (Inst.)", "4study4work4inst Vol.2", 244),
+("Bionic Power (Inst.)", "4study4work4inst Vol.2", 245),
+("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (골 때리는 그녀들 X tripleS (트리플에스))", 222),
+("Dreaming (by 유연, 유빈, 다현, 시온)", "Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)", 45),
+("Untitled", "tripleS hatch! <Untitled>", 245),
+("### (hatch! Version)", "tripleS hatch! <Untitled>", 666),
+("###", "tripleS hatch! <Untitled>", 1255),
+("Untitled", "tripleS hatch! <Untitled>", 455),
+("Polaroid (by 나경, 마유, 시온, 채원)", "Polaroid", 256),
+("Polaroid (by 나경, 마유, 시온, 채원) (Inst.)", "Polaroid", 254),
+("Visual Virtue", "Visionary Vision <Performante>", 24),
+("Hit the Floor", "Visionary Vision <Performante>", 2555),
+("Choom", "Visionary Vision <Performante>", 2543),
+("Éclair", "Visionary Vision <Performante>", 243),
+("연애소설 (Love Soseol)", "Visionary Vision <Performante>", 1222),
+("Atmosphere (VV Ver.)", "Visionary Vision <Performante>", 124),
+("12 Rings", "Visionary Vision <Performante>", 155),
+("Vision", "Visionary Vision <Performante>", 777),
+("Bionic Power", "Visionary Vision <Performante>", 765),
+("Visionary Vision", "Visionary Vision <Performante>", 543), 
+("###", "<###>", 45),
+("내적 댄스 (Inner Dance)", "Glow <Inner Dance>", 1277),
+("S", "〈ASSEMBLE24〉", 256),
+("Girls Never Die", "〈ASSEMBLE24〉", 6545),
+("가시권 (Heart Raider)", "〈ASSEMBLE24〉", 266),
+("Midnight Flower", "〈ASSEMBLE24〉", 1255),
+("White Soul Sneakers", "〈ASSEMBLE24〉", 666),
+("치유 (Chiyu)", "〈ASSEMBLE24〉", 677),
+("24", "〈ASSEMBLE24〉", 1222),
+("이면의 이면 (Beyond the Beyond)", "〈ASSEMBLE24〉", 255),
+("Non Scale", "〈ASSEMBLE24〉", 566),
+("Dimension", "〈ASSEMBLE24〉", 866), 
+("Generation (Inst.)", "4study4work4inst Vol.1", 2555),
+("Rolex (Inst.)", "4study4work4inst Vol.1", 666),
+("찰나 (Charla) (Inst.)", "4study4work4inst Vol.1", 777),
+("Dimension (AAA Ver.) (Inst.)", "4study4work4inst Vol.1", 1455),
+("Beam (Inst.)", "4study4work4inst Vol.1", 555),
+("Rising (Inst.)", "4study4work4inst Vol.1", 656),
+("Colorful (Inst.)", "4study4work4inst Vol.1", 676),
+("The Baddest (Inst.)", "4study4work4inst Vol.1", 1222),
+("New Look (Inst.)", "4study4work4inst Vol.1", 1444),
+("Cherry Talk (Inst.)", "4study4work4inst Vol.1", 245),
+("Touch (Inst.)", "4study4work4inst Vol.1", 565),
+("(숨겨 봐봐) Hide & Seek (Inst.)", "4study4work4inst Vol.1", 566),
+("Deja-Vu (Inst.)", "4study4work4inst Vol.1", 667),
+("Dimension (KRE Ver.) (Inst.)", "4study4work4inst Vol.1", 766),
+("Touch+ (Inst.)", "4study4work4inst Vol.1", 777),
+("Girls’ Capitalism (Inst.)", "4study4work4inst Vol.1", 887),
+("복합성 (Complexity) (Inst.)", "4study4work4inst Vol.1", 778),
+("Black Soul Dress (Inst.)", "4study4work4inst Vol.1", 999),
+("Seoul Sonyo Sound (Inst.)", "4study4work4inst Vol.1", 1000),
+("Cry Baby (Inst.)", "4study4work4inst Vol.1", 1245),
+("Speed Love (Inst.)", "4study4work4inst Vol.1", 545),
+("Invincible (Inst.)", "4study4work4inst Vol.1", 665),
+("Rhodanthe (Inst.)", "4study4work4inst Vol.1", 787),
+("Heavy Metal Wings (Inst.)", "4study4work4inst Vol.1", 1222),
+("미열 37.5 (Inst.)", "4study4work4inst Vol.1", 245),
+("Moto Princess (Inst.)", "4study4work4inst Vol.1", 656),
+("Oui (Inst.)", "4study4work4inst Vol.1", 256),
+("Enhanced Flower (Inst.)", "4study4work4inst Vol.1", 256),
+("Just Do It (Inst.)", "4study4work4inst Vol.1", 888),
+("Door (Inst.)", "4study4work4inst Vol.1", 654),
+("첫 이별 (Farewell My First) (Inst.)", "4study4work4inst Vol.1", 545),
+("Door", "Aria <Structure Of Sadness>", 545),
+("첫 이별 (Farewell My First)", "Aria <Structure Of Sadness>", 545),
+("Just Do It", "NXT <Just Do It>", 545),
+("＆#10209;", "EVOLution <⟡>", 122),
+("Invincible", "EVOLution <⟡>", 2555),
+("Rhodanthe", "EVOLution <⟡>", 665),
+("Heavy Metal Wings", "EVOLution <⟡>", 545),
+("미열 37.5", "EVOLution <⟡>", 545),
+("Moto Princess", "EVOLution <⟡>", 345),
+("Oui", "EVOLution <⟡>", 124),
+("Enhanced Flower", "EVOLution <⟡>", 235),
+("&#8576;", "LOVElution <ↀ>", 122),
+("Girls’ Capitalism", "LOVElution <ↀ>", 6555),
+("복합성 (Complexity)", "LOVElution <ↀ>", 443),
+("Black Soul Dress", "LOVElution <ↀ>", 666),
+("Seoul Sonyo Sound", "LOVElution <ↀ>", 777);
+
+alter table all_song_selling
+add column so_id int auto_increment primary key;
+
+select a.track, a.title, a.album, b.판매_억단위
+from all_song_album a
+natural right join all_song_selling b;
+/*
++-------+------------------------------------------------------+----------------------------------------------------------------+------------------+
+| track | title                                                | album                                                          | 판매_억단위      |
++-------+------------------------------------------------------+----------------------------------------------------------------+------------------+
+|     3 | Tokimetique                                          | tripleS_hatch!_SecretHimitsuBimil                              |              111 |
+|     4 | TOKYO                                                | tripleS_hatch!_SecretHimitsuBimil                              |               11 |
+|     5 | Oshare                                               | tripleS_hatch!_SecretHimitsuBimil                              |               22 |
+|     6 | Untitled                                             | tripleS_hatch!_SecretHimitsuBimil                              |             9999 |
+|     7 | ### (hatch! Version)                                 | tripleS_hatch!_SecretHimitsuBimil                              |               12 |
+|     1 | Password                                             | tripleS hatch! <Password>                                      |               66 |
+|     1 | Pink Power                                           | Pink Power(잔망루피, tripleS (트리플에스))                     |               44 |
+|     2 | Pink Power (inst.)                                   | Pink Power(잔망루피, tripleS (트리플에스))                     |               77 |
+|     1 | @% (Alpha Percent)                                   | <ASSEMBLE25>                                                   |               33 |
+|     2 | 깨어 (Are You Alive)                                 | <ASSEMBLE25>                                                   |               22 |
+|     3 | 추리소설 (Detective Soseol)                          | <ASSEMBLE25>                                                   |               44 |
+|     4 | 어제 우리 불꽃놀이 (Firework Diary)                  | <ASSEMBLE25>                                                   |               44 |
+|     5 | Love Child                                           | <ASSEMBLE25>                                                   |               33 |
+|     6 | Persona                                              | <ASSEMBLE25>                                                   |               11 |
+|     7 | Too Hot                                              | <ASSEMBLE25>                                                   |               55 |
+|     8 | Diablo                                               | <ASSEMBLE25>                                                   |                7 |
+|     9 | Friend Zone                                          | <ASSEMBLE25>                                                   |               99 |
+|    10 | Love2Love                                            | <ASSEMBLE25>                                                   |               11 |
+|     1 | Girls Never Die (Japanese Version)                   | Girls Never Die (Japanese Version)                             |               12 |
+|     1 | Rising (Japanese Version)                            | Rising (Japanese Version)                                      |              122 |
+|     4 | PainDrop (by 서연, 지우, 유빈, 소현)                 | 선의의 경쟁 OST                                                |              200 |
+|     1 | PainDrop (by 서연, 지우, 유빈, 소현)                 | 선의의경쟁 OST Part.4                                          |               55 |
+|     2 | PainDrop (by 서연, 지우, 유빈, 소현) (Inst)          | 선의의경쟁 OST Part.4                                          |              244 |
+|     1 | Girls Never Die (Inst.)                              | 4study4work4inst Vol.2                                         |              456 |
+|     2 | 가시권 (Heart Raider) (Inst.)                        | 4study4work4inst Vol.2                                         |              600 |
+|     3 | Midnight Flower (Inst.)                              | 4study4work4inst Vol.2                                         |               66 |
+|     4 | White Soul Sneakers (Inst.)                          | 4study4work4inst Vol.2                                         |              255 |
+|     5 | 치유 (Chiyu) (Inst.)                                 | 4study4work4inst Vol.2                                         |             1225 |
+|     6 | 24 (Inst.)                                           | 4study4work4inst Vol.2                                         |             1200 |
+|     7 | 이면의 이면 (Beyond the Beyond) (Inst.)              | 4study4work4inst Vol.2                                         |             4000 |
+|     8 | Non Scale (Inst.)                                    | 4study4work4inst Vol.2                                         |             3900 |
+|     9 | Dimension (Inst.)                                    | 4study4work4inst Vol.2                                         |             1244 |
+|    10 | 내적 댄스 (Inner Dance) (Inst.)                      | 4study4work4inst Vol.2                                         |              256 |
+|    11 | Hit the Floor (Inst.)                                | 4study4work4inst Vol.2                                         |               44 |
+|    12 | Choom (Inst.)                                        | 4study4work4inst Vol.2                                         |               55 |
+|    13 | Éclair (Inst.)                                       | 4study4work4inst Vol.2                                         |              755 |
+|    14 | 연애소설 (Love Soseol) (Inst.)                       | 4study4work4inst Vol.2                                         |              245 |
+|    15 | Atmosphere (VV Ver.) (Inst.)                         | 4study4work4inst Vol.2                                         |              555 |
+|    16 | 12 Rings (Inst.)                                     | 4study4work4inst Vol.2                                         |              755 |
+|    17 | Vision (Inst.)                                       | 4study4work4inst Vol.2                                         |              144 |
+|    18 | Bionic Power (Inst.)                                 | 4study4work4inst Vol.2                                         |               14 |
+|     1 | Dreaming (by 유연, 유빈, 다현, 시온)                 | Dreaming (골 때리는 그녀들 X tripleS (트리플에스))             |               55 |
+|     2 | Dreaming (by 유연, 유빈, 다현, 시온) (Inst.)         | Dreaming (골 때리는 그녀들 X tripleS (트리플에스))             |             2244 |
+|     1 | Untitled                                             | tripleS hatch! <Untitled>                                      |             1255 |
+|     2 | ### (hatch! Version)                                 | tripleS hatch! <Untitled>                                      |              456 |
+|     3 | ###                                                  | tripleS hatch! <Untitled>                                      |              665 |
+|     1 | Untitled                                             | tripleS hatch! <Untitled>                                      |              476 |
+|     1 | Polaroid (by 나경, 마유, 시온, 채원)                 | Polaroid                                                       |             1100 |
+|     2 | Polaroid (by 나경, 마유, 시온, 채원) (Inst.)         | Polaroid                                                       |              245 |
+|     1 | Visual Virtue                                        | Visionary Vision <Performante>                                 |              665 |
+|     2 | Hit the Floor                                        | Visionary Vision <Performante>                                 |              600 |
+|     3 | Choom                                                | Visionary Vision <Performante>                                 |             1222 |
+|     4 | Éclair                                               | Visionary Vision <Performante>                                 |             5554 |
+|     5 | 연애소설 (Love Soseol)                               | Visionary Vision <Performante>                                 |             2555 |
+|     6 | Atmosphere (VV Ver.)                                 | Visionary Vision <Performante>                                 |             4444 |
+|     7 | 12 Rings                                             | Visionary Vision <Performante>                                 |              333 |
+|     8 | Vision                                               | Visionary Vision <Performante>                                 |             2456 |
+|     9 | Bionic Power                                         | Visionary Vision <Performante>                                 |              456 |
+|    10 | Visionary Vision                                     | Visionary Vision <Performante>                                 |               65 |
+|     1 | ###                                                  | <###>                                                          |               55 |
+|     1 | 내적 댄스 (Inner Dance)                              | Glow <Inner Dance>                                             |              444 |
+|     1 | S                                                    | 〈ASSEMBLE24〉                                                 |              256 |
+|     2 | Girls Never Die                                      | 〈ASSEMBLE24〉                                                 |              254 |
+|     3 | 가시권 (Heart Raider)                                | 〈ASSEMBLE24〉                                                 |              256 |
+|     4 | Midnight Flower                                      | 〈ASSEMBLE24〉                                                 |              255 |
+|     5 | White Soul Sneakers                                  | 〈ASSEMBLE24〉                                                 |              254 |
+|     6 | 치유 (Chiyu)                                         | 〈ASSEMBLE24〉                                                 |              111 |
+|     7 | 24                                                   | 〈ASSEMBLE24〉                                                 |              222 |
+|     8 | 이면의 이면 (Beyond the Beyond)                      | 〈ASSEMBLE24〉                                                 |              333 |
+|     9 | Non Scale                                            | 〈ASSEMBLE24〉                                                 |              456 |
+|    10 | Dimension                                            | 〈ASSEMBLE24〉                                                 |              544 |
+|     1 | Generation (Inst.)                                   | 4study4work4inst Vol.1                                         |              554 |
+|     2 | Rolex (Inst.)                                        | 4study4work4inst Vol.1                                         |              244 |
+|     3 | 찰나 (Charla) (Inst.)                                | 4study4work4inst Vol.1                                         |              245 |
+|     4 | Dimension (AAA Ver.) (Inst.)                         | 4study4work4inst Vol.1                                         |              222 |
+|     5 | Beam (Inst.)                                         | 4study4work4inst Vol.1                                         |               45 |
+|     6 | Rising (Inst.)                                       | 4study4work4inst Vol.1                                         |              245 |
+|     7 | Colorful (Inst.)                                     | 4study4work4inst Vol.1                                         |              666 |
+|     8 | The Baddest (Inst.)                                  | 4study4work4inst Vol.1                                         |             1255 |
+|     9 | New Look (Inst.)                                     | 4study4work4inst Vol.1                                         |              455 |
+|    10 | Cherry Talk (Inst.)                                  | 4study4work4inst Vol.1                                         |              256 |
+|    11 | Touch (Inst.)                                        | 4study4work4inst Vol.1                                         |              254 |
+|    12 | (숨겨 봐봐) Hide & Seek (Inst.)                      | 4study4work4inst Vol.1                                         |               24 |
+|    13 | Deja-Vu (Inst.)                                      | 4study4work4inst Vol.1                                         |             2555 |
+|    14 | Dimension (KRE Ver.) (Inst.)                         | 4study4work4inst Vol.1                                         |             2543 |
+|    15 | Touch+ (Inst.)                                       | 4study4work4inst Vol.1                                         |              243 |
+|    16 | Girls’ Capitalism (Inst.)                            | 4study4work4inst Vol.1                                         |             1222 |
+|    17 | 복합성 (Complexity) (Inst.)                          | 4study4work4inst Vol.1                                         |              124 |
+|    18 | Black Soul Dress (Inst.)                             | 4study4work4inst Vol.1                                         |              155 |
+|    19 | Seoul Sonyo Sound (Inst.)                            | 4study4work4inst Vol.1                                         |              777 |
+|    20 | Cry Baby (Inst.)                                     | 4study4work4inst Vol.1                                         |              765 |
+|    21 | Speed Love (Inst.)                                   | 4study4work4inst Vol.1                                         |              543 |
+|    22 | Invincible (Inst.)                                   | 4study4work4inst Vol.1                                         |               45 |
+|    23 | Rhodanthe (Inst.)                                    | 4study4work4inst Vol.1                                         |             1277 |
+|    24 | Heavy Metal Wings (Inst.)                            | 4study4work4inst Vol.1                                         |              256 |
+|    25 | 미열 37.5 (Inst.)                                    | 4study4work4inst Vol.1                                         |             6545 |
+|    26 | Moto Princess (Inst.)                                | 4study4work4inst Vol.1                                         |              266 |
+|    27 | Oui (Inst.)                                          | 4study4work4inst Vol.1                                         |             1255 |
+|    28 | Enhanced Flower (Inst.)                              | 4study4work4inst Vol.1                                         |              666 |
+|    29 | Just Do It (Inst.)                                   | 4study4work4inst Vol.1                                         |              677 |
+|    30 | Door (Inst.)                                         | 4study4work4inst Vol.1                                         |             1222 |
+|    31 | 첫 이별 (Farewell My First) (Inst.)                  | 4study4work4inst Vol.1                                         |              255 |
+|     1 | Door                                                 | Aria <Structure Of Sadness>                                    |              566 |
+|     2 | 첫 이별 (Farewell My First)                          | Aria <Structure Of Sadness>                                    |              866 |
+|     1 | Just Do It                                           | NXT <Just Do It>                                               |             2555 |
+|     1 | ＆#10209;                                            | EVOLution <⟡>                                                  |              666 |
+|     2 | Invincible                                           | EVOLution <⟡>                                                  |              777 |
+|     3 | Rhodanthe                                            | EVOLution <⟡>                                                  |             1455 |
+|     4 | Heavy Metal Wings                                    | EVOLution <⟡>                                                  |              555 |
+|     5 | 미열 37.5                                            | EVOLution <⟡>                                                  |              656 |
+|     6 | Moto Princess                                        | EVOLution <⟡>                                                  |              676 |
+|     7 | Oui                                                  | EVOLution <⟡>                                                  |             1222 |
+|     8 | Enhanced Flower                                      | EVOLution <⟡>                                                  |             1444 |
+|     1 | &#8576;                                              | LOVElution <ↀ>                                                 |              245 |
+|     2 | Girls’ Capitalism                                    | LOVElution <ↀ>                                                 |              565 |
+|     3 | 복합성 (Complexity)                                  | LOVElution <ↀ>                                                 |              566 |
+|     4 | Black Soul Dress                                     | LOVElution <ↀ>                                                 |              667 |
+|     5 | Seoul Sonyo Sound                                    | LOVElution <ↀ>                                                 |              766 |
+|     6 | Cry Baby                                             | LOVElution <ↀ>                                                 |              777 |
+|     7 | Speed Love                                           | LOVElution <ↀ>                                                 |              887 |
+|     8 | Number 8                                             | LOVElution <ↀ>                                                 |              778 |
+|     1 | Cherry Gene 'Baddest Mix'                            | Acid Eyes <Cherry Gene>                                        |              999 |
+|     2 | Cherry Gene 'Hy-Fluid Mix'                           | Acid Eyes <Cherry Gene>                                        |             1000 |
+|     3 | Cherry Gene 'Testarossa Mix'                         | Acid Eyes <Cherry Gene>                                        |             1245 |
+|     1 | Touch+                                               | +(KR)ystal Eyes <Touch+>                                       |              545 |
+|     1 | Cherry 100%                                          | +(KR)ystal Eyes <AESTHETIC>                                    |              665 |
+|     2 | Cherry Talk                                          | +(KR)ystal Eyes <AESTHETIC>                                    |              787 |
+|     3 | Touch                                                | +(KR)ystal Eyes <AESTHETIC>                                    |             1222 |
+|     4 | (숨겨 봐봐) Hide & Seek                              | +(KR)ystal Eyes <AESTHETIC>                                    |              245 |
+|     5 | Deja-Vu                                              | +(KR)ystal Eyes <AESTHETIC>                                    |              656 |
+|     6 | Dimension (KRE Ver.)                                 | +(KR)ystal Eyes <AESTHETIC>                                    |              256 |
+|     1 | Beam                                                 | ASSEMBLE                                                       |              256 |
+|     2 | Before the Rise                                      | ASSEMBLE                                                       |              888 |
+|     3 | Rising                                               | ASSEMBLE                                                       |              654 |
+|     4 | Colorful                                             | ASSEMBLE                                                       |              545 |
+|     5 | The Baddest                                          | ASSEMBLE                                                       |              545 |
+|     6 | New Look                                             | ASSEMBLE                                                       |              545 |
+|     7 | 초월 (Chowall)                                       | ASSEMBLE                                                       |              545 |
+|     1 | Access                                               | Acid Angel from Asia <ACCESS>                                  |              122 |
+|     2 | Generation                                           | Acid Angel from Asia <ACCESS>                                  |             2555 |
+|     3 | Rolex                                                | Acid Angel from Asia <ACCESS>                                  |              665 |
+|     4 | 찰나 (Charla)                                        | Acid Angel from Asia <ACCESS>                                  |              545 |
+|     5 | Dimension (AAA Ver.)                                 | Acid Angel from Asia <ACCESS>                                  |              545 |
+|     6 | +(82)                                                | Acid Angel from Asia <ACCESS>                                  |              345 |
+|  NULL | NULL                                                 | NULL                                                           |              124 |
+|  NULL | NULL                                                 | NULL                                                           |              235 |
+|  NULL | NULL                                                 | NULL                                                           |              122 |
+|  NULL | NULL                                                 | NULL                                                           |             6555 |
+|  NULL | NULL                                                 | NULL                                                           |              443 |
+|  NULL | NULL                                                 | NULL                                                           |              666 |
+|  NULL | NULL                                                 | NULL                                                           |              777 |
++-------+------------------------------------------------------+----------------------------------------------------------------+------------------+
+*/
