@@ -9,7 +9,7 @@ create table Baby_Flower_song_part
 insert into Baby_Flower_song_part
 values
 (1, "윤서연", "", 2003),
-(2, "정혜린", "", 2007),
+(2, "정혜린", "We", 2007),
 (3, "이지우", "", 2005),
 (4, "김채연", "그래", 2004),
 (5, "김유연", "", 2001),
