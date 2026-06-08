@@ -111,3 +111,56 @@ from all_song_album_two;
 |     5 | Seoul Sonyo Sound                      | LOVElution <ↀ>              |
 +-------+----------------------------------------+-----------------------------+
 */
+
+create table all_song_album_one
+(
+  track int,
+  title varchar(50),
+  album varchar(50)
+);
+
+
+insert into all_song_album_one
+values
+(20, "Cry Baby (Inst.)", "4study4work4inst Vol.1"),
+(21, "Speed Love (Inst.)", "4study4work4inst Vol.1"),
+(22, "Invincible (Inst.)", "4study4work4inst Vol.1"),
+(23, "Rhodanthe (Inst.)", "4study4work4inst Vol.1");
+
+
+create table all_song_album_two
+(
+  track int,
+  title varchar(50),
+  album varchar(50)
+);
+
+
+insert into all_song_album_two
+values
+(20, "Cry Baby (Inst.)", "4study4work4inst Vol.1"),
+(21, "Speed Love (Inst.)", "4study4work4inst Vol.1"),
+(22, "Invincible (Inst.)", "4study4work4inst Vol.1"),
+(23, "Rhodanthe (Inst.)", "4study4work4inst Vol.1");
+
+
+
+select *
+from all_song_album_one
+union all
+select *
+from all_song_album_two;
+/*
++-------+--------------------+------------------------+
+| track | title              | album                  |
++-------+--------------------+------------------------+
+|    20 | Cry Baby (Inst.)   | 4study4work4inst Vol.1 |
+|    21 | Speed Love (Inst.) | 4study4work4inst Vol.1 |
+|    22 | Invincible (Inst.) | 4study4work4inst Vol.1 |
+|    23 | Rhodanthe (Inst.)  | 4study4work4inst Vol.1 |
+|    20 | Cry Baby (Inst.)   | 4study4work4inst Vol.1 |
+|    21 | Speed Love (Inst.) | 4study4work4inst Vol.1 |
+|    22 | Invincible (Inst.) | 4study4work4inst Vol.1 |
+|    23 | Rhodanthe (Inst.)  | 4study4work4inst Vol.1 |
++-------+--------------------+------------------------+
+*/
