@@ -1345,3 +1345,75 @@ and 판매_억단위 > 220
 |   103 |    10 | Dimension                                            | 〈ASSEMBLE24〉                                                 |
 +-------+-------+------------------------------------------------------+----------------------------------------------------------------+
 */
+create table all_song_album
+(
+  so_id int auto_increment primary key,
+  track int,
+  title varchar(50),
+  album varchar(50)
+);
+
+insert into all_song_album(track, title, album)
+values
+(1, "Baby Flower Japanese Version", "Baby Flower Japanese Version"),
+(1, "Sad Girls Schemin", "love_and_pop_pt1"),
+(2, "Peer", "love_and_pop_pt1"),
+(3, "Baby Flower", "love_and_pop_pt1"),
+(4, "Type of Girl", "love_and_pop_pt1"),
+(5, "Sleek", "love_and_pop_pt1"),
+(6, "I Like That", "love_and_pop_pt1"),
+(7, "Me Myself Mode", "love_and_pop_pt1"),
+(1, "Tokimetique", "Tokimetique"),
+(2, "Tokimetique -Shin Sakiura Remix-", "Tokimetique");
+
+create table all_song_selling
+(
+  so_id int auto_increment primary key,
+  title varchar(50),
+  album varchar(50),
+  판매_억단위 int
+);
+
+insert into all_song_selling(title, album, 판매_억단위)
+values
+("Baby Flower Japanese Version", "Baby Flower Japanese Version", 111),
+("Sad Girls Schemin", "love_and_pop_pt1", 11),
+("Peer", "love_and_pop_pt1", 22),
+("Baby Flower", "love_and_pop_pt1", 9999),
+("Type of Girl", "love_and_pop_pt1", 12),
+("Sleek", "love_and_pop_pt1", 66),
+("I Like That", "love_and_pop_pt1", 44),
+("Me Myself Mode", "love_and_pop_pt1", 77),
+("Tokimetique", "Tokimetique", 33),
+("Tokimetique -Shin Sakiura Remix-", "Tokimetique", 22),
+("Tokimetique TV Edit", "Tokimetique", 44),
+("깨어 (Are You Alive) (Inst.)", "4study4work4inst_Vol.3", 44),
+("추리소설 (Detective Soseol) (Inst.)", "4study4work4inst_Vol.3", 33),
+("어제 우리 불꽃놀이 (Firework Diary) (Inst.)", "4study4work4inst_Vol.3", 11),
+("Love Child (Inst.)", "4study4work4inst_Vol.3", 55);
+
+select a.track, a.title, b.album, b.판매_억단위
+from all_song_album a
+join lateral (
+    select album, 판매_억단위
+    from all_song_selling f
+    where a.so_id = f.so_id
+) b
+on true;
+/*
+JOIN LATERAL 문법에서 맨 끝에 붙는 ON TRUE는 조인(JOIN) 조건을 항상 '참(True)'으로 설정하여, 서브쿼리가 반환하는 모든 행을 무조건 결합하겠다는 의미입니다.일반적인 JOIN 문은 두 테이블을 연결할 때 ON a.id = b.id와 같은 일치 조건을 명시합니다. 하지만 LATERAL 조인에서는 조금 다르게 동작하기 때문에 ON TRUE를 사용합니다.상세한 작동 원리와 이유를 정리해 드립니다.💡 왜 ON TRUE를 사용할까?연결 조건이 이미 서브쿼리 내부에 있음이미 LATERAL 서브쿼리 내부의 WHERE a.so_id = f.so_id 절에서 두 테이블을 어떻게 연결할지 조건을 지정했습니다.외부 ON 절에 또 한 번 조건을 적으면 조건이 중복되므로, 밖에서는 더 이상 필터링할 필요가 없습니다.문법적 필수 요소MySQL에서 JOIN 키워드를 사용하면 반드시 뒤에 ON 절을 적어주어야 하는 문법적 규칙이 있습니다.이미 안에서 매칭을 끝냈기 때문에, 밖에서는 형식을 맞추기 위해 "조건 없이 무조건 통과시켜라"라는 의미로 ON TRUE(또는 ON 1=1)를 적어주는 것입니다.
+*/
+/*
+출력값
+track,title,album,판매_억단위
+1,"Baby Flower Japanese Version","Baby Flower Japanese Version",111
+1,"Sad Girls Schemin",love_and_pop_pt1,11
+2,Peer,love_and_pop_pt1,22
+3,"Baby Flower",love_and_pop_pt1,9999
+4,"Type of Girl",love_and_pop_pt1,12
+5,Sleek,love_and_pop_pt1,66
+6,"I Like That",love_and_pop_pt1,44
+7,"Me Myself Mode",love_and_pop_pt1,77
+1,Tokimetique,Tokimetique,33
+2,"Tokimetique -Shin Sakiura Remix-",Tokimetique,22
+*/
