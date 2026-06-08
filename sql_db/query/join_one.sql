@@ -2567,3 +2567,328 @@ natural right join all_song_selling b;
 |  NULL | NULL                                                 | NULL                                                           |              777 |
 +-------+------------------------------------------------------+----------------------------------------------------------------+------------------+
 */
+
+create table all_song_album
+(
+  track int,
+  title varchar(50),
+  album varchar(50)
+);
+
+-- 20번 love2love까지 확인함
+
+insert into all_song_album
+values
+(13, "Deja-Vu (Inst.)", "4study4work4inst Vol.1"),
+(14, "Dimension (KRE Ver.) (Inst.)", "4study4work4inst Vol.1"),
+(15, "Touch+ (Inst.)", "4study4work4inst Vol.1"),
+(16, "Girls’ Capitalism (Inst.)", "4study4work4inst Vol.1"),
+(17, "복합성 (Complexity) (Inst.)", "4study4work4inst Vol.1"),
+(18, "Black Soul Dress (Inst.)", "4study4work4inst Vol.1"),
+(19, "Seoul Sonyo Sound (Inst.)", "4study4work4inst Vol.1"),
+(20, "Cry Baby (Inst.)", "4study4work4inst Vol.1"),
+(21, "Speed Love (Inst.)", "4study4work4inst Vol.1"),
+(22, "Invincible (Inst.)", "4study4work4inst Vol.1"),
+(23, "Rhodanthe (Inst.)", "4study4work4inst Vol.1"),
+(24, "Heavy Metal Wings (Inst.)", "4study4work4inst Vol.1"),
+(25, "미열 37.5 (Inst.)", "4study4work4inst Vol.1"),
+(26, "Moto Princess (Inst.)", "4study4work4inst Vol.1"),
+(27, "Oui (Inst.)", "4study4work4inst Vol.1"),
+(28, "Enhanced Flower (Inst.)", "4study4work4inst Vol.1"),
+(29, "Just Do It (Inst.)", "4study4work4inst Vol.1"),
+(30, "Door (Inst.)", "4study4work4inst Vol.1"),
+(31, "첫 이별 (Farewell My First) (Inst.)", "4study4work4inst Vol.1"),
+(1, "Door", "Aria <Structure Of Sadness>"),
+(2, "첫 이별 (Farewell My First)", "Aria <Structure Of Sadness>"),
+(1, "Just Do It", "NXT <Just Do It>"),
+(1, "＆#10209;", "EVOLution <⟡>"),
+(2, "Invincible", "EVOLution <⟡>"),
+(3, "Rhodanthe", "EVOLution <⟡>"),
+(4, "Heavy Metal Wings", "EVOLution <⟡>"),
+(5, "미열 37.5", "EVOLution <⟡>"),
+(6, "Moto Princess", "EVOLution <⟡>"),
+(7, "Oui", "EVOLution <⟡>"),
+(8, "Enhanced Flower", "EVOLution <⟡>"),
+(1, "&#8576;", "LOVElution <ↀ>"),
+(2, "Girls’ Capitalism", "LOVElution <ↀ>"),
+(3, "복합성 (Complexity)", "LOVElution <ↀ>"),
+(4, "Black Soul Dress", "LOVElution <ↀ>"),
+(5, "Seoul Sonyo Sound", "LOVElution <ↀ>");
+ 
+alter table all_song_album
+add column so_id int auto_increment primary key;
+
+create table all_song_selling
+(
+  titles varchar(50),
+  albums varchar(50),
+  판매_억단위 int
+);
+
+insert into all_song_selling
+values
+("Baby Flower Japanese Version", "Baby Flower Japanese Version", 111),
+("Sad Girls Schemin", "love_and_pop_pt1", 11),
+("Peer", "love_and_pop_pt1", 22),
+("Baby Flower", "love_and_pop_pt1", 9999),
+("Type of Girl", "love_and_pop_pt1", 12),
+("Sleek", "love_and_pop_pt1", 66),
+("I Like That", "love_and_pop_pt1", 44);
+
+alter table all_song_selling
+add column so_id int auto_increment primary key;
+
+select a.track, a.title, a.album, b.판매_억단위
+from all_song_album a
+cross join all_song_selling b;
+/*
++-------+----------------------------------------+-----------------------------+------------------+
+| track | title                                  | album                       | 판매_억단위      |
++-------+----------------------------------------+-----------------------------+------------------+
+|    13 | Deja-Vu (Inst.)                        | 4study4work4inst Vol.1      |               44 |
+|    13 | Deja-Vu (Inst.)                        | 4study4work4inst Vol.1      |               66 |
+|    13 | Deja-Vu (Inst.)                        | 4study4work4inst Vol.1      |               12 |
+|    13 | Deja-Vu (Inst.)                        | 4study4work4inst Vol.1      |             9999 |
+|    13 | Deja-Vu (Inst.)                        | 4study4work4inst Vol.1      |               22 |
+|    13 | Deja-Vu (Inst.)                        | 4study4work4inst Vol.1      |               11 |
+|    13 | Deja-Vu (Inst.)                        | 4study4work4inst Vol.1      |              111 |
+|    14 | Dimension (KRE Ver.) (Inst.)           | 4study4work4inst Vol.1      |               44 |
+|    14 | Dimension (KRE Ver.) (Inst.)           | 4study4work4inst Vol.1      |               66 |
+|    14 | Dimension (KRE Ver.) (Inst.)           | 4study4work4inst Vol.1      |               12 |
+|    14 | Dimension (KRE Ver.) (Inst.)           | 4study4work4inst Vol.1      |             9999 |
+|    14 | Dimension (KRE Ver.) (Inst.)           | 4study4work4inst Vol.1      |               22 |
+|    14 | Dimension (KRE Ver.) (Inst.)           | 4study4work4inst Vol.1      |               11 |
+|    14 | Dimension (KRE Ver.) (Inst.)           | 4study4work4inst Vol.1      |              111 |
+|    15 | Touch+ (Inst.)                         | 4study4work4inst Vol.1      |               44 |
+|    15 | Touch+ (Inst.)                         | 4study4work4inst Vol.1      |               66 |
+|    15 | Touch+ (Inst.)                         | 4study4work4inst Vol.1      |               12 |
+|    15 | Touch+ (Inst.)                         | 4study4work4inst Vol.1      |             9999 |
+|    15 | Touch+ (Inst.)                         | 4study4work4inst Vol.1      |               22 |
+|    15 | Touch+ (Inst.)                         | 4study4work4inst Vol.1      |               11 |
+|    15 | Touch+ (Inst.)                         | 4study4work4inst Vol.1      |              111 |
+|    16 | Girls’ Capitalism (Inst.)              | 4study4work4inst Vol.1      |               44 |
+|    16 | Girls’ Capitalism (Inst.)              | 4study4work4inst Vol.1      |               66 |
+|    16 | Girls’ Capitalism (Inst.)              | 4study4work4inst Vol.1      |               12 |
+|    16 | Girls’ Capitalism (Inst.)              | 4study4work4inst Vol.1      |             9999 |
+|    16 | Girls’ Capitalism (Inst.)              | 4study4work4inst Vol.1      |               22 |
+|    16 | Girls’ Capitalism (Inst.)              | 4study4work4inst Vol.1      |               11 |
+|    16 | Girls’ Capitalism (Inst.)              | 4study4work4inst Vol.1      |              111 |
+|    17 | 복합성 (Complexity) (Inst.)            | 4study4work4inst Vol.1      |               44 |
+|    17 | 복합성 (Complexity) (Inst.)            | 4study4work4inst Vol.1      |               66 |
+|    17 | 복합성 (Complexity) (Inst.)            | 4study4work4inst Vol.1      |               12 |
+|    17 | 복합성 (Complexity) (Inst.)            | 4study4work4inst Vol.1      |             9999 |
+|    17 | 복합성 (Complexity) (Inst.)            | 4study4work4inst Vol.1      |               22 |
+|    17 | 복합성 (Complexity) (Inst.)            | 4study4work4inst Vol.1      |               11 |
+|    17 | 복합성 (Complexity) (Inst.)            | 4study4work4inst Vol.1      |              111 |
+|    18 | Black Soul Dress (Inst.)               | 4study4work4inst Vol.1      |               44 |
+|    18 | Black Soul Dress (Inst.)               | 4study4work4inst Vol.1      |               66 |
+|    18 | Black Soul Dress (Inst.)               | 4study4work4inst Vol.1      |               12 |
+|    18 | Black Soul Dress (Inst.)               | 4study4work4inst Vol.1      |             9999 |
+|    18 | Black Soul Dress (Inst.)               | 4study4work4inst Vol.1      |               22 |
+|    18 | Black Soul Dress (Inst.)               | 4study4work4inst Vol.1      |               11 |
+|    18 | Black Soul Dress (Inst.)               | 4study4work4inst Vol.1      |              111 |
+|    19 | Seoul Sonyo Sound (Inst.)              | 4study4work4inst Vol.1      |               44 |
+|    19 | Seoul Sonyo Sound (Inst.)              | 4study4work4inst Vol.1      |               66 |
+|    19 | Seoul Sonyo Sound (Inst.)              | 4study4work4inst Vol.1      |               12 |
+|    19 | Seoul Sonyo Sound (Inst.)              | 4study4work4inst Vol.1      |             9999 |
+|    19 | Seoul Sonyo Sound (Inst.)              | 4study4work4inst Vol.1      |               22 |
+|    19 | Seoul Sonyo Sound (Inst.)              | 4study4work4inst Vol.1      |               11 |
+|    19 | Seoul Sonyo Sound (Inst.)              | 4study4work4inst Vol.1      |              111 |
+|    20 | Cry Baby (Inst.)                       | 4study4work4inst Vol.1      |               44 |
+|    20 | Cry Baby (Inst.)                       | 4study4work4inst Vol.1      |               66 |
+|    20 | Cry Baby (Inst.)                       | 4study4work4inst Vol.1      |               12 |
+|    20 | Cry Baby (Inst.)                       | 4study4work4inst Vol.1      |             9999 |
+|    20 | Cry Baby (Inst.)                       | 4study4work4inst Vol.1      |               22 |
+|    20 | Cry Baby (Inst.)                       | 4study4work4inst Vol.1      |               11 |
+|    20 | Cry Baby (Inst.)                       | 4study4work4inst Vol.1      |              111 |
+|    21 | Speed Love (Inst.)                     | 4study4work4inst Vol.1      |               44 |
+|    21 | Speed Love (Inst.)                     | 4study4work4inst Vol.1      |               66 |
+|    21 | Speed Love (Inst.)                     | 4study4work4inst Vol.1      |               12 |
+|    21 | Speed Love (Inst.)                     | 4study4work4inst Vol.1      |             9999 |
+|    21 | Speed Love (Inst.)                     | 4study4work4inst Vol.1      |               22 |
+|    21 | Speed Love (Inst.)                     | 4study4work4inst Vol.1      |               11 |
+|    21 | Speed Love (Inst.)                     | 4study4work4inst Vol.1      |              111 |
+|    22 | Invincible (Inst.)                     | 4study4work4inst Vol.1      |               44 |
+|    22 | Invincible (Inst.)                     | 4study4work4inst Vol.1      |               66 |
+|    22 | Invincible (Inst.)                     | 4study4work4inst Vol.1      |               12 |
+|    22 | Invincible (Inst.)                     | 4study4work4inst Vol.1      |             9999 |
+|    22 | Invincible (Inst.)                     | 4study4work4inst Vol.1      |               22 |
+|    22 | Invincible (Inst.)                     | 4study4work4inst Vol.1      |               11 |
+|    22 | Invincible (Inst.)                     | 4study4work4inst Vol.1      |              111 |
+|    23 | Rhodanthe (Inst.)                      | 4study4work4inst Vol.1      |               44 |
+|    23 | Rhodanthe (Inst.)                      | 4study4work4inst Vol.1      |               66 |
+|    23 | Rhodanthe (Inst.)                      | 4study4work4inst Vol.1      |               12 |
+|    23 | Rhodanthe (Inst.)                      | 4study4work4inst Vol.1      |             9999 |
+|    23 | Rhodanthe (Inst.)                      | 4study4work4inst Vol.1      |               22 |
+|    23 | Rhodanthe (Inst.)                      | 4study4work4inst Vol.1      |               11 |
+|    23 | Rhodanthe (Inst.)                      | 4study4work4inst Vol.1      |              111 |
+|    24 | Heavy Metal Wings (Inst.)              | 4study4work4inst Vol.1      |               44 |
+|    24 | Heavy Metal Wings (Inst.)              | 4study4work4inst Vol.1      |               66 |
+|    24 | Heavy Metal Wings (Inst.)              | 4study4work4inst Vol.1      |               12 |
+|    24 | Heavy Metal Wings (Inst.)              | 4study4work4inst Vol.1      |             9999 |
+|    24 | Heavy Metal Wings (Inst.)              | 4study4work4inst Vol.1      |               22 |
+|    24 | Heavy Metal Wings (Inst.)              | 4study4work4inst Vol.1      |               11 |
+|    24 | Heavy Metal Wings (Inst.)              | 4study4work4inst Vol.1      |              111 |
+|    25 | 미열 37.5 (Inst.)                      | 4study4work4inst Vol.1      |               44 |
+|    25 | 미열 37.5 (Inst.)                      | 4study4work4inst Vol.1      |               66 |
+|    25 | 미열 37.5 (Inst.)                      | 4study4work4inst Vol.1      |               12 |
+|    25 | 미열 37.5 (Inst.)                      | 4study4work4inst Vol.1      |             9999 |
+|    25 | 미열 37.5 (Inst.)                      | 4study4work4inst Vol.1      |               22 |
+|    25 | 미열 37.5 (Inst.)                      | 4study4work4inst Vol.1      |               11 |
+|    25 | 미열 37.5 (Inst.)                      | 4study4work4inst Vol.1      |              111 |
+|    26 | Moto Princess (Inst.)                  | 4study4work4inst Vol.1      |               44 |
+|    26 | Moto Princess (Inst.)                  | 4study4work4inst Vol.1      |               66 |
+|    26 | Moto Princess (Inst.)                  | 4study4work4inst Vol.1      |               12 |
+|    26 | Moto Princess (Inst.)                  | 4study4work4inst Vol.1      |             9999 |
+|    26 | Moto Princess (Inst.)                  | 4study4work4inst Vol.1      |               22 |
+|    26 | Moto Princess (Inst.)                  | 4study4work4inst Vol.1      |               11 |
+|    26 | Moto Princess (Inst.)                  | 4study4work4inst Vol.1      |              111 |
+|    27 | Oui (Inst.)                            | 4study4work4inst Vol.1      |               44 |
+|    27 | Oui (Inst.)                            | 4study4work4inst Vol.1      |               66 |
+|    27 | Oui (Inst.)                            | 4study4work4inst Vol.1      |               12 |
+|    27 | Oui (Inst.)                            | 4study4work4inst Vol.1      |             9999 |
+|    27 | Oui (Inst.)                            | 4study4work4inst Vol.1      |               22 |
+|    27 | Oui (Inst.)                            | 4study4work4inst Vol.1      |               11 |
+|    27 | Oui (Inst.)                            | 4study4work4inst Vol.1      |              111 |
+|    28 | Enhanced Flower (Inst.)                | 4study4work4inst Vol.1      |               44 |
+|    28 | Enhanced Flower (Inst.)                | 4study4work4inst Vol.1      |               66 |
+|    28 | Enhanced Flower (Inst.)                | 4study4work4inst Vol.1      |               12 |
+|    28 | Enhanced Flower (Inst.)                | 4study4work4inst Vol.1      |             9999 |
+|    28 | Enhanced Flower (Inst.)                | 4study4work4inst Vol.1      |               22 |
+|    28 | Enhanced Flower (Inst.)                | 4study4work4inst Vol.1      |               11 |
+|    28 | Enhanced Flower (Inst.)                | 4study4work4inst Vol.1      |              111 |
+|    29 | Just Do It (Inst.)                     | 4study4work4inst Vol.1      |               44 |
+|    29 | Just Do It (Inst.)                     | 4study4work4inst Vol.1      |               66 |
+|    29 | Just Do It (Inst.)                     | 4study4work4inst Vol.1      |               12 |
+|    29 | Just Do It (Inst.)                     | 4study4work4inst Vol.1      |             9999 |
+|    29 | Just Do It (Inst.)                     | 4study4work4inst Vol.1      |               22 |
+|    29 | Just Do It (Inst.)                     | 4study4work4inst Vol.1      |               11 |
+|    29 | Just Do It (Inst.)                     | 4study4work4inst Vol.1      |              111 |
+|    30 | Door (Inst.)                           | 4study4work4inst Vol.1      |               44 |
+|    30 | Door (Inst.)                           | 4study4work4inst Vol.1      |               66 |
+|    30 | Door (Inst.)                           | 4study4work4inst Vol.1      |               12 |
+|    30 | Door (Inst.)                           | 4study4work4inst Vol.1      |             9999 |
+|    30 | Door (Inst.)                           | 4study4work4inst Vol.1      |               22 |
+|    30 | Door (Inst.)                           | 4study4work4inst Vol.1      |               11 |
+|    30 | Door (Inst.)                           | 4study4work4inst Vol.1      |              111 |
+|    31 | 첫 이별 (Farewell My First) (Inst.)    | 4study4work4inst Vol.1      |               44 |
+|    31 | 첫 이별 (Farewell My First) (Inst.)    | 4study4work4inst Vol.1      |               66 |
+|    31 | 첫 이별 (Farewell My First) (Inst.)    | 4study4work4inst Vol.1      |               12 |
+|    31 | 첫 이별 (Farewell My First) (Inst.)    | 4study4work4inst Vol.1      |             9999 |
+|    31 | 첫 이별 (Farewell My First) (Inst.)    | 4study4work4inst Vol.1      |               22 |
+|    31 | 첫 이별 (Farewell My First) (Inst.)    | 4study4work4inst Vol.1      |               11 |
+|    31 | 첫 이별 (Farewell My First) (Inst.)    | 4study4work4inst Vol.1      |              111 |
+|     1 | Door                                   | Aria <Structure Of Sadness> |               44 |
+|     1 | Door                                   | Aria <Structure Of Sadness> |               66 |
+|     1 | Door                                   | Aria <Structure Of Sadness> |               12 |
+|     1 | Door                                   | Aria <Structure Of Sadness> |             9999 |
+|     1 | Door                                   | Aria <Structure Of Sadness> |               22 |
+|     1 | Door                                   | Aria <Structure Of Sadness> |               11 |
+|     1 | Door                                   | Aria <Structure Of Sadness> |              111 |
+|     2 | 첫 이별 (Farewell My First)            | Aria <Structure Of Sadness> |               44 |
+|     2 | 첫 이별 (Farewell My First)            | Aria <Structure Of Sadness> |               66 |
+|     2 | 첫 이별 (Farewell My First)            | Aria <Structure Of Sadness> |               12 |
+|     2 | 첫 이별 (Farewell My First)            | Aria <Structure Of Sadness> |             9999 |
+|     2 | 첫 이별 (Farewell My First)            | Aria <Structure Of Sadness> |               22 |
+|     2 | 첫 이별 (Farewell My First)            | Aria <Structure Of Sadness> |               11 |
+|     2 | 첫 이별 (Farewell My First)            | Aria <Structure Of Sadness> |              111 |
+|     1 | Just Do It                             | NXT <Just Do It>            |               44 |
+|     1 | Just Do It                             | NXT <Just Do It>            |               66 |
+|     1 | Just Do It                             | NXT <Just Do It>            |               12 |
+|     1 | Just Do It                             | NXT <Just Do It>            |             9999 |
+|     1 | Just Do It                             | NXT <Just Do It>            |               22 |
+|     1 | Just Do It                             | NXT <Just Do It>            |               11 |
+|     1 | Just Do It                             | NXT <Just Do It>            |              111 |
+|     1 | ＆#10209;                              | EVOLution <⟡>               |               44 |
+|     1 | ＆#10209;                              | EVOLution <⟡>               |               66 |
+|     1 | ＆#10209;                              | EVOLution <⟡>               |               12 |
+|     1 | ＆#10209;                              | EVOLution <⟡>               |             9999 |
+|     1 | ＆#10209;                              | EVOLution <⟡>               |               22 |
+|     1 | ＆#10209;                              | EVOLution <⟡>               |               11 |
+|     1 | ＆#10209;                              | EVOLution <⟡>               |              111 |
+|     2 | Invincible                             | EVOLution <⟡>               |               44 |
+|     2 | Invincible                             | EVOLution <⟡>               |               66 |
+|     2 | Invincible                             | EVOLution <⟡>               |               12 |
+|     2 | Invincible                             | EVOLution <⟡>               |             9999 |
+|     2 | Invincible                             | EVOLution <⟡>               |               22 |
+|     2 | Invincible                             | EVOLution <⟡>               |               11 |
+|     2 | Invincible                             | EVOLution <⟡>               |              111 |
+|     3 | Rhodanthe                              | EVOLution <⟡>               |               44 |
+|     3 | Rhodanthe                              | EVOLution <⟡>               |               66 |
+|     3 | Rhodanthe                              | EVOLution <⟡>               |               12 |
+|     3 | Rhodanthe                              | EVOLution <⟡>               |             9999 |
+|     3 | Rhodanthe                              | EVOLution <⟡>               |               22 |
+|     3 | Rhodanthe                              | EVOLution <⟡>               |               11 |
+|     3 | Rhodanthe                              | EVOLution <⟡>               |              111 |
+|     4 | Heavy Metal Wings                      | EVOLution <⟡>               |               44 |
+|     4 | Heavy Metal Wings                      | EVOLution <⟡>               |               66 |
+|     4 | Heavy Metal Wings                      | EVOLution <⟡>               |               12 |
+|     4 | Heavy Metal Wings                      | EVOLution <⟡>               |             9999 |
+|     4 | Heavy Metal Wings                      | EVOLution <⟡>               |               22 |
+|     4 | Heavy Metal Wings                      | EVOLution <⟡>               |               11 |
+|     4 | Heavy Metal Wings                      | EVOLution <⟡>               |              111 |
+|     5 | 미열 37.5                              | EVOLution <⟡>               |               44 |
+|     5 | 미열 37.5                              | EVOLution <⟡>               |               66 |
+|     5 | 미열 37.5                              | EVOLution <⟡>               |               12 |
+|     5 | 미열 37.5                              | EVOLution <⟡>               |             9999 |
+|     5 | 미열 37.5                              | EVOLution <⟡>               |               22 |
+|     5 | 미열 37.5                              | EVOLution <⟡>               |               11 |
+|     5 | 미열 37.5                              | EVOLution <⟡>               |              111 |
+|     6 | Moto Princess                          | EVOLution <⟡>               |               44 |
+|     6 | Moto Princess                          | EVOLution <⟡>               |               66 |
+|     6 | Moto Princess                          | EVOLution <⟡>               |               12 |
+|     6 | Moto Princess                          | EVOLution <⟡>               |             9999 |
+|     6 | Moto Princess                          | EVOLution <⟡>               |               22 |
+|     6 | Moto Princess                          | EVOLution <⟡>               |               11 |
+|     6 | Moto Princess                          | EVOLution <⟡>               |              111 |
+|     7 | Oui                                    | EVOLution <⟡>               |               44 |
+|     7 | Oui                                    | EVOLution <⟡>               |               66 |
+|     7 | Oui                                    | EVOLution <⟡>               |               12 |
+|     7 | Oui                                    | EVOLution <⟡>               |             9999 |
+|     7 | Oui                                    | EVOLution <⟡>               |               22 |
+|     7 | Oui                                    | EVOLution <⟡>               |               11 |
+|     7 | Oui                                    | EVOLution <⟡>               |              111 |
+|     8 | Enhanced Flower                        | EVOLution <⟡>               |               44 |
+|     8 | Enhanced Flower                        | EVOLution <⟡>               |               66 |
+|     8 | Enhanced Flower                        | EVOLution <⟡>               |               12 |
+|     8 | Enhanced Flower                        | EVOLution <⟡>               |             9999 |
+|     8 | Enhanced Flower                        | EVOLution <⟡>               |               22 |
+|     8 | Enhanced Flower                        | EVOLution <⟡>               |               11 |
+|     8 | Enhanced Flower                        | EVOLution <⟡>               |              111 |
+|     1 | &#8576;                                | LOVElution <ↀ>              |               44 |
+|     1 | &#8576;                                | LOVElution <ↀ>              |               66 |
+|     1 | &#8576;                                | LOVElution <ↀ>              |               12 |
+|     1 | &#8576;                                | LOVElution <ↀ>              |             9999 |
+|     1 | &#8576;                                | LOVElution <ↀ>              |               22 |
+|     1 | &#8576;                                | LOVElution <ↀ>              |               11 |
+|     1 | &#8576;                                | LOVElution <ↀ>              |              111 |
+|     2 | Girls’ Capitalism                      | LOVElution <ↀ>              |               44 |
+|     2 | Girls’ Capitalism                      | LOVElution <ↀ>              |               66 |
+|     2 | Girls’ Capitalism                      | LOVElution <ↀ>              |               12 |
+|     2 | Girls’ Capitalism                      | LOVElution <ↀ>              |             9999 |
+|     2 | Girls’ Capitalism                      | LOVElution <ↀ>              |               22 |
+|     2 | Girls’ Capitalism                      | LOVElution <ↀ>              |               11 |
+|     2 | Girls’ Capitalism                      | LOVElution <ↀ>              |              111 |
+|     3 | 복합성 (Complexity)                    | LOVElution <ↀ>              |               44 |
+|     3 | 복합성 (Complexity)                    | LOVElution <ↀ>              |               66 |
+|     3 | 복합성 (Complexity)                    | LOVElution <ↀ>              |               12 |
+|     3 | 복합성 (Complexity)                    | LOVElution <ↀ>              |             9999 |
+|     3 | 복합성 (Complexity)                    | LOVElution <ↀ>              |               22 |
+|     3 | 복합성 (Complexity)                    | LOVElution <ↀ>              |               11 |
+|     3 | 복합성 (Complexity)                    | LOVElution <ↀ>              |              111 |
+|     4 | Black Soul Dress                       | LOVElution <ↀ>              |               44 |
+|     4 | Black Soul Dress                       | LOVElution <ↀ>              |               66 |
+|     4 | Black Soul Dress                       | LOVElution <ↀ>              |               12 |
+|     4 | Black Soul Dress                       | LOVElution <ↀ>              |             9999 |
+|     4 | Black Soul Dress                       | LOVElution <ↀ>              |               22 |
+|     4 | Black Soul Dress                       | LOVElution <ↀ>              |               11 |
+|     4 | Black Soul Dress                       | LOVElution <ↀ>              |              111 |
+|     5 | Seoul Sonyo Sound                      | LOVElution <ↀ>              |               44 |
+|     5 | Seoul Sonyo Sound                      | LOVElution <ↀ>              |               66 |
+|     5 | Seoul Sonyo Sound                      | LOVElution <ↀ>              |               12 |
+|     5 | Seoul Sonyo Sound                      | LOVElution <ↀ>              |             9999 |
+|     5 | Seoul Sonyo Sound                      | LOVElution <ↀ>              |               22 |
+|     5 | Seoul Sonyo Sound                      | LOVElution <ↀ>              |               11 |
+|     5 | Seoul Sonyo Sound                      | LOVElution <ↀ>              |              111 |
++-------+----------------------------------------+-----------------------------+------------------+
+*/
