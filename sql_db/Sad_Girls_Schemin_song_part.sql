@@ -35,3 +35,7 @@ values
 
 select *
 from Sad_Girls_Schemin_song_part;
+
+https://www.youtube.com/watch?v=YB4h0TfLIL0
+
+1분 11초 정헤린까지 봄
