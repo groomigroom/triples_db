@@ -1,4 +1,4 @@
-create table Sad_Girls_Schemin'_song_part
+create table Sad_Girls_Schemin_song_part
 (
   s_id integer,
   s_name varchar(50),
@@ -6,7 +6,7 @@ create table Sad_Girls_Schemin'_song_part
   part_length float
 );
 
-insert into Sad_Girls_Schemin'_song_part
+insert into Sad_Girls_Schemin_song_part
 values
 (1, "윤서연", "상처", 4.44),
 (2, "정혜린", "We", 6.18),
