@@ -6,7 +6,7 @@ create table Sad_Girls_Schemin'_song_part
   part_length float
 );
 
-insert into Baby_Flower_song_part
+insert into Sad_Girls_Schemin'_song_part
 values
 (1, "윤서연", "상처", 4.44),
 (2, "정혜린", "We", 6.18),
