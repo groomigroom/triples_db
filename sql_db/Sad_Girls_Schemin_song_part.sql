@@ -9,7 +9,7 @@ create table Sad_Girls_Schemin_song_part
 insert into Sad_Girls_Schemin_song_part
 values
 (1, "윤서연", "We", 4.44),
-(2, "정혜린", "", 6.18),
+(2, "정혜린", "We", 6.18),
 (3, "이지우", "", 10.49),
 (4, "김채연", "", 7.2),
 (5, "김유연", "Mascara", 8.16),
