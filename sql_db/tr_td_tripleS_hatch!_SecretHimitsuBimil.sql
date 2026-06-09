@@ -1,4 +1,4 @@
-create table tripleS_hatch!_SecretHimitsuBimil
+create table tripleS_hatch느낌표_SecretHimitsuBimil
 (
   title varchar(50),
   track_num integer,
@@ -7,7 +7,7 @@ create table tripleS_hatch!_SecretHimitsuBimil
   youtube_like integer
 );
 
-insert into tripleS_hatch!_SecretHimitsuBimil
+insert into tripleS_hatch느낌표_SecretHimitsuBimil
 values
 ("Password", 1, "00:00:00", 400, 36000),
 ("Headphones", 2, "00:00:00", 255, 2500),
