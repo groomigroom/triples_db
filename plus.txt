@@ -1,3 +1,10 @@
 create table DreamDress (
-  
+  title varchar(50),
+  track_num integer,
+  song_len time,
+  youtube_like integer
 );
+
+insert into DreamDress
+values
+();
