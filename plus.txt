@@ -7,4 +7,4 @@ create table DreamDress (
 
 insert into DreamDress
 values
-();
+('Dream Dress', 1, 3분 9초, 멜론라이크66, 유튜브라이크);
